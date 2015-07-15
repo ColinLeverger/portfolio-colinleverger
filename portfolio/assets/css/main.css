@@ -95,7 +95,7 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
+	background-color: #27ae60;
 	border-color: #16a085;
 }
 
@@ -232,6 +232,18 @@ bt {
 
 .zoom2:hover {
 	opacity: 0.5;
+}
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 /* glyphicon Configuration */
