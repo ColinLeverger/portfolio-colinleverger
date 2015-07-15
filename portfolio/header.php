@@ -11,8 +11,9 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
+<?php            /*    <li><a href="about.html">About me</a></li>
                 <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>*/ ?>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
