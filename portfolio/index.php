@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Colin LEVERGER</title>
+    <title>Colin LEVERGER test</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -40,8 +40,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
 					<img src="assets/img/colinleverger.jpg" class="circular"  alt="Colin LEVERGER">
-					<h1>Hi, I am Colin !</h1>
-					<p>I am a young developer & student at ENSSAT Lannion, and this is my portfolio.</p>
+					<h1>Hi there, I am Colin!</h1>
+					<p>I am a young developer & student at ENSSAT Lannion engineering school, and this is my portfolio.</p>
                     <p>You will find some informations about me, my skills, and about some of my projects.</p>
                     <p>Please contact me if you have any suggestions/questions! :) Cheers!</p>
 				
