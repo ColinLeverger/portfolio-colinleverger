@@ -131,19 +131,16 @@ include "header.php";
 
                 <h3>Development skills</h3>
 
-                <p>I play with <b>Java</b> since 2 years; I use it every day at work, developing apps & user interfaces.
-                </p>
-
-                <p>I discovered recently <b>Scala</b> language and I am learning it; I truly love this language, which
+                <p><b>Java</b>: 2 years background, several projects.</p>
+                
+                <p><b>Scala</b>: learning it since February 2015; I truly love this language, which
                     allow to develop things more concise and in a very pretty way.</p>
 
-                <p>I also know <b>PHP</b>, <b>HTML5 / CSS3</b>, <b>JavaScript</b>, <b>WordPress</b> for web development.
-                </p>
+                <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress</p>
 
-                <p>I had during my studies a robust experience in the good old <b>C</b> (loop invariant, strict
-                    methodology).</p>
+                <p><b>C</b>: robust experience (loop invariant, strict  methodology & concepts).</p>
 
-                <p>I use <b>SQL</b> (MySQL, PostgreSQL...) or <b>MongoDB</b> when I need to store data.</p>
+                <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / MongoDB</p>
 
             </div>
             <!-- /colg-lg-6 -->
