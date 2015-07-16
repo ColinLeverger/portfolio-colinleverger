@@ -48,7 +48,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #27ae60;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -83,15 +83,18 @@ a:after {
     padding: 0;
 }
 
+#navWrap {
+	height:100px
+}
 
 .navbar {
 	text-transform: uppercase;
-	margin-bottom: 0px;
+	height:100px
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 .navbar-inverse {
@@ -122,7 +125,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: #27ae60;
 }
 
 
@@ -134,24 +137,23 @@ a:after {
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
-#ww {
-	padding-top: 70px;
-	padding-bottom: 70px;
+#welcome {
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: #f2f2f2;
 }
 
-
 #footer {
 	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 #footer p {
@@ -168,14 +170,14 @@ a:after {
 /* +++++ Color Wraps / Blog Page +++++ */
 
 #grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #f2f2f2;
 }
 
 #white {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: #ffffff;
 }
 
@@ -250,5 +252,5 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #1abc9c;
+	color: #27ae60;
 }
