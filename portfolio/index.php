@@ -34,7 +34,7 @@ include "header.php";
 ?>
 
 <!-- +++++ Welcome Section +++++ -->
-<div id="welcome">
+<div id="top">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 centered">
