@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://projet-php.enssat';
+$config['base_url'] = 'http://colinleverger.fr/assets/project/srv_php_voeux/';
 
 /*
 |--------------------------------------------------------------------------
