@@ -131,6 +131,7 @@ include "header.php";
             <div class="col-lg-6">
 
                 <h3>Development skills</h3>
+                <hr>
 
                 <p><b>Object-oriented programming</b>:
                 <ul>
@@ -150,6 +151,7 @@ include "header.php";
 
             <div class="col-lg-6">
                 <h3>DevOps & Virtualization stuff</h3>
+                <hr>
 
                 <p>I love both DevOps and continuous delivery; this is my thing and I like to experiments.</p>
 
@@ -166,6 +168,7 @@ include "header.php";
         <div class="row mt">
             <div class="col-lg-12">
                 <h3>Skills "progress bar" (fancy, eh?):</h3>
+                <hr>
                 Java
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
