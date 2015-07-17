@@ -48,9 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'srv_voeux';
-$db['default']['password'] = 'srv_voeux';
+$db['default']['hostname'] = '37.187.6.232';
+$db['default']['port']     = 12346;
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'monportfolioesttrestresjoli';
 $db['default']['database'] = 'voeux';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
