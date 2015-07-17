@@ -10,6 +10,7 @@
                     <li><a href="#about">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#work">Work</a></li>
+                    <li><a href="#footer">Contact</a></li>
                     <li><a href="./assets/Colin_LEVERGER.pdf">CV</a></li>
                 </ul>
             </div>

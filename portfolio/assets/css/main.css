@@ -33,7 +33,18 @@ h1 {
 	margin-bottom: 30px;
 }
 
+h3{
+	padding-bottom: 15px;
+}
 
+li.comp {
+	list-style-type: none;
+	text-align: left;
+}
+
+li.comp:before {
+	content: "- "; /* on affiche une chaîne de caractère */
+}
 
 /* Paragraph & Typographic */
 p {
@@ -166,18 +177,13 @@ a:after {
 	padding-bottom: 20px;
 }
 
-
 /* +++++ Color Wraps / Blog Page +++++ */
 
 #grey {
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #f2f2f2;
 }
 
 #white {
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #ffffff;
 }
 

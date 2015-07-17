@@ -7,7 +7,7 @@ $(function () {
     });
 
     $('.green').hoverZoom({
-        overlayColor: '#1abc9c',
+        overlayColor: '#27ae60',
         zoom: 0
     });
 
@@ -54,4 +54,6 @@ $(function () {
         }
     });
 });
+
+
 
