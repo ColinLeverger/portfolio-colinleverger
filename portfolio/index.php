@@ -42,14 +42,13 @@ include "header.php";
 
                 <h1>Hi there!</h1>
 
-                <p>I am <em>Colin LEVERGER</em>, a young developer & student engineer, and you are now
-                    on my web-portfolio.</p>
+                <p>I am <em>Colin LEVERGER</em>, a young developer & an engineering student, and you are welcome
+                    to my web-portfolio.</p>
 
                 <p>I've always been interested in new technologies & computing science, that's why I'm currently working
-                    as aprentice engineer in the Orange company.
+                    as an apprentice engineer at the Orange company.
                     I have the opportunity to work with <em>DevOps tools</em> such as <b>Jenkins</b>, <b>Scala</b>, <b>Scala
-                        SBT</b>, <b>Docker</b>, and also the opportunity to learn
-                    how works the application performance management in the
+                        SBT</b>, <b>Docker</b>, and also to learn how the application performance management works in the
                     Orange's Application Performance Experts team.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
@@ -85,7 +84,7 @@ include "header.php";
 
             <h3>Studies:</h3>
 
-            <p>Currently: student at engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a> Lannion -
+            <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a> Lannion -
                 Computing
                 Science</p>
 
@@ -99,9 +98,8 @@ include "header.php";
 
             <h3>Travels:</h3>
 
-            <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during a half semester in
-                an
-                internship</p>
+            <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during half a semester in
+                an internship</p>
 
             <p>2013 (<em>15 days</em>): Scotland, Glasgow</p>
 
@@ -113,11 +111,11 @@ include "header.php";
 
             <h3>Languages:</h3>
 
-            <p>French: Native tongue</p>
+            <p>French: native tongue</p>
 
-            <p>English: Fluent & good technicals skills</p>
+            <p>English: fluent & good technical skill</p>
 
-            <p>Spanish: Basis</p>
+            <p>Spanish: basic knowledge </p>
 
         </div>
     </div>
@@ -135,8 +133,8 @@ include "header.php";
 
                 <p><b>Object-oriented programming</b>:
                 <ul>
-                    <li class="comp"><em>Java</em>: 2 years background, several projects.</li>
-                    <li class="comp"><em>Scala</em>: beginner (but almost great lover).</li>
+                    <li class="comp"><em>Java</em>: 2 years experience, several projects.</li>
+                    <li class="comp"><em>Scala</em>: beginner (but already great lover).</li>
                 </ul>
                 </p>
 
@@ -153,12 +151,12 @@ include "header.php";
                 <h3>DevOps & Virtualization stuff</h3>
                 <hr>
 
-                <p>I love both DevOps and continuous delivery; this is my thing and I like to experiments.</p>
+                <p>I love both DevOps and continuous delivery; this is my thing and I like to experiment.</p>
 
                 <p>I play a lot with <b>Docker</b> and <b>Jenkins</b> on my personal server.</p>
 
                 <p>This website is for example built by a dockerized Jenkins at every push detected on GitHub, and
-                    deployed automatically into a Docker ngnix/PHP contener. The reverse proxy which route all my
+                    deployed automatically into a Docker ngnix/PHP contener. The reverse proxy which routes all my
                     services
                     on my server is also a dockerized ngnix.</p>
 
@@ -228,7 +226,7 @@ include "header.php";
         <div class="col-lg-6 col-lg-offset-3 centered">
             <h3>My work & projects</h3>
             <hr>
-            <p>Click on a project to play with it!</p>
+            <p>Click on a project to play!</p>
         </div>
     </div>
 
@@ -250,7 +248,7 @@ include "header.php";
 
         <div class="col-lg-4">
             <a class="zoom green" href="./assets/project/srv_php_voeux/index.php" target="new">
-                <img class="img-responsive" src="assets/img/portfolio/srv.png"
+                <img class="img-responsive" src="./assets/img/portfolio/srv.png"
                      alt="Serveur de voeux"/>
             </a>
 
