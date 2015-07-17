@@ -113,7 +113,7 @@ include "header.php";
 
             <p>French: native tongue</p>
 
-            <p>English: fluent & good technical skill</p>
+            <p>English: fluent & good technical skills</p>
 
             <p>Spanish: basic knowledge </p>
 
