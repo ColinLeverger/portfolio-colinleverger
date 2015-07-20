@@ -19,6 +19,7 @@
                 <p>
                     <a href="https://github.com/ColinLeverger/">Github</a><br/>
                     <a href="https://plus.google.com/u/0/+ColinLeverger/">Google+</a><br/>
+                    <a href="www.youtube.fr/colinleverger">YouTube</a>
                     <a href="https://open.spotify.com/user/colinleverger">Spotify</a>
                 </p>
             </div>

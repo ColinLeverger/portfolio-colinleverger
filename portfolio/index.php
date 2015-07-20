@@ -48,7 +48,8 @@ include "header.php";
                 <p>I've always been interested in new technologies & computing science, that's why I'm currently working
                     as an apprentice engineer at the Orange company.
                     I have the opportunity to work with <em>DevOps tools</em> such as <b>Jenkins</b>, <b>Scala</b>, <b>Scala
-                        SBT</b>, <b>Docker</b>, and also to learn how the application performance management works in the
+                        SBT</b>, <b>Docker</b>, and also to learn how the application performance management works in
+                    the
                     Orange's Application Performance Experts team.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
@@ -73,10 +74,13 @@ include "header.php";
             <p>21 y-o</p>
 
             <p>
-                <a href="https://www.google.fr/maps/place/Rennes/@48.1159156,-1.6884545,13z/data=!3m1!4b1!4m2!3m1!1s0x480ede2fa7d69085:0x40ca5cd36e4ab30" target="new">
+                <a href="https://www.google.fr/maps/place/Rennes/@48.1159156,-1.6884545,13z/data=!3m1!4b1!4m2!3m1!1s0x480ede2fa7d69085:0x40ca5cd36e4ab30"
+                   target="new">
                     Rennes</a> city - France</p>
 
             <p>Guitarist / Singer / Music player & lover</p>
+
+            <p>Driving licence</p>
         </div>
 
         <div class="col-lg-3">
@@ -84,12 +88,14 @@ include "header.php";
 
             <h3>Studies:</h3>
 
-            <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a> Lannion -
+            <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a>
+                Lannion -
                 Computing
                 Science</p>
 
             <p>2014: D.U.T <a
-                    href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii" target="new">GEII</a>,
+                    href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii"
+                    target="new">GEII</a>,
                 Rennes (Technical Degree in Electronics & Computing Sciences) </p>
         </div>
 
@@ -98,7 +104,8 @@ include "header.php";
 
             <h3>Travels:</h3>
 
-            <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during half a semester in
+            <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during half
+                a semester in
                 an internship</p>
 
             <p>2013 (<em>15 days</em>): Scotland, Glasgow</p>
@@ -144,6 +151,8 @@ include "header.php";
 
                 <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / MongoDB</p>
 
+                <p><b>Git</b>: Daily use.</p>
+
             </div>
             <!-- /colg-lg-6 -->
 
@@ -160,7 +169,8 @@ include "header.php";
                     services
                     on my server is also a dockerized ngnix.</p>
 
-                <p>See: <a href="https://www.docker.com/" target="new">Docker</a> / <a href="https://jenkins-ci.org/" target="new">Jenkins</a></p>
+                <p>See: <a href="https://www.docker.com/" target="new">Docker</a> / <a href="https://jenkins-ci.org/"
+                                                                                       target="new">Jenkins</a></p>
             </div>
         </div>
         <div class="row mt">
@@ -239,7 +249,8 @@ include "header.php";
 
             <h3>Boulder Dash</h3>
 
-            <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>, use of MVC pattern.</p>
+            <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>,
+                use of MVC pattern.</p>
 
             <p>URL of GitHub project : <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
 
