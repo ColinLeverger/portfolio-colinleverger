@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio & CV en ligne de Colin LEVERGER">
+    <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
+    <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer" />
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
     <title>Colin LEVERGER</title>
@@ -42,7 +43,7 @@ include "header.php";
 
                 <h1>Hi there!</h1>
 
-                <p>I am <em>Colin LEVERGER</em>, a young developer & an engineering student, and you are welcome
+                <p>I am <em><span itemprop="name">Colin LEVERGER</span></em>, a young developer & an engineering student, and you are welcome
                     to my web-portfolio.</p>
 
                 <p>I've always been interested in new technologies & computing science, that's why I'm currently working
@@ -243,7 +244,7 @@ include "header.php";
     <div class="row mt centered">
 
         <div class="col-lg-4">
-            <a class="zoom green" data-toggle="modal" href="./assets/project/boulder_dash.zip">
+            <a class="zoom green" data-toggle="modal" href="assets/projects/boulder_dash.zip">
                 <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash Game"/>
             </a>
 
@@ -258,7 +259,7 @@ include "header.php";
         </div>
 
         <div class="col-lg-4">
-            <a class="zoom green" href="./assets/project/srv_php_voeux/index.php" target="new">
+            <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
                 <img class="img-responsive" src="./assets/img/portfolio/srv.png"
                      alt="Serveur de voeux"/>
             </a>
