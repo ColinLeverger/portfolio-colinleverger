@@ -41,9 +41,9 @@ include "header.php";
             <div class="col-lg-8 col-lg-offset-2 centered">
                 <img src="./assets/img/colinleverger.jpg" class="circular" alt="Colin LEVERGER">
 
-                <h1>Hi there!</h1>
+                <h1>Colin LEVERGER</h1>
 
-                <p>I am <em><span itemprop="name">Colin LEVERGER</span></em>, a young developer & an engineering student, and you are welcome
+                <p>I am a young developer & an engineering student, and you are welcome
                     to my web-portfolio.</p>
 
                 <p>I've always been interested in new technologies & computing science, that's why I'm currently working
@@ -112,6 +112,8 @@ include "header.php";
             <p>2013 (<em>15 days</em>): Scotland, Glasgow</p>
 
             <p>2012 (<em>10 days</em>): England, Reading</p>
+
+            <p>& many others...</p>
         </div>
 
         <div class="col-lg-3">
