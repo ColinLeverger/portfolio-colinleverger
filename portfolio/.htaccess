@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteCond %{HTTP_REFERER} erot.co [NC,OR]
+RewriteCond %{HTTP_REFERER} erot.co
+RewriteRule .* - [F]
