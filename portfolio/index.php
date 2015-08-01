@@ -266,11 +266,11 @@ include "header.php";
                      alt="Serveur de voeux"/>
             </a>
 
-            <h3>Website for ENSSAT : Serveur de voeux</h3>
+            <h3>Website for ENSSAT: Serveur de voeux</h3>
 
             <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
 
-            <p>IDs to play :</p>
+            <p>IDs to play:</p>
             <ul>
                 <li class="comp">USERNAME: <em>bvozel</em></li>
                 <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
