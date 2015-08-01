@@ -270,7 +270,7 @@ include "header.php";
 
             <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
 
-            <p>IDs to play:</p>
+            <p>IDs to play :</p>
             <ul>
                 <li class="comp">USERNAME: <em>bvozel</em></li>
                 <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
