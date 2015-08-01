@@ -255,9 +255,9 @@ include "header.php";
             <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>,
                 use of MVC pattern.</p>
 
-            <p>URL of GitHub project : <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
+            <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
 
-            <p>MD5 of zip : e1a500927c9fcb5770edfee5831dff13</p>
+            <p>MD5 of zip: e1a500927c9fcb5770edfee5831dff13</p>
         </div>
 
         <div class="col-lg-4">
@@ -266,11 +266,11 @@ include "header.php";
                      alt="Serveur de voeux"/>
             </a>
 
-            <h3>Website for ENSSAT : Serveur de voeux</h3>
+            <h3>Website for ENSSAT: Serveur de voeux</h3>
 
             <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
 
-            <p>IDs to play :</p>
+            <p>IDs to play:</p>
             <ul>
                 <li class="comp">USERNAME: <em>bvozel</em></li>
                 <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
