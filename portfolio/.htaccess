@@ -9,7 +9,7 @@ Options -Indexes
 # Edit the first two lines with your specific domain information
 # Check http://brassblogs.com/blog/htaccess-and-spam for updates
 
-RewriteCond %{HTTP_REFERER} !.*colinleverger\.fr/.*$ [NC]
+#RewriteCond %{HTTP_REFERER} !.*colinleverger\.fr/.*$ [NC]
 
 RewriteCond %{HTTP_REFERER} !^http://([^/]+)google\..*$ [NC]
 RewriteCond %{HTTP_REFERER} !^http://([^/]+)altavista\..*$ [NC]
