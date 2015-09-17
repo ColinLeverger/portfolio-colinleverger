@@ -5,7 +5,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#top">Colin LEVERGER</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
