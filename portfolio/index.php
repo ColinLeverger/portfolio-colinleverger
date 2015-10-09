@@ -42,6 +42,7 @@ include "header.php";
                 <img src="./assets/img/colinleverger.jpg" class="circular" alt="Colin LEVERGER">
 
                 <h1>Colin LEVERGER</h1>
+                <hr>
 
                 <p>I am a young developer & an engineering student, and you are welcome
                     to my web-portfolio.</p>
@@ -71,6 +72,7 @@ include "header.php";
             <span class="glyphicon glyphicon-user"></span>
 
             <h3>About me:</h3>
+            <hr>
 
             <p>21 y-o</p>
 
@@ -88,6 +90,7 @@ include "header.php";
             <span class="glyphicon glyphicon-book"></span>
 
             <h3>Studies:</h3>
+            <hr>
 
             <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a>
                 Lannion -
@@ -104,6 +107,7 @@ include "header.php";
             <span class="glyphicon glyphicon-plane"></span>
 
             <h3>Travels:</h3>
+            <hr>
 
             <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during half
                 a semester in
@@ -120,12 +124,13 @@ include "header.php";
             <span class="glyphicon glyphicon-globe"></span>
 
             <h3>Languages:</h3>
+            <hr>
 
             <p>French: native tongue</p>
 
-            <p>English: fluent & good technical skills</p>
+            <p>English: fluent & good technical skills (B2 level)</p>
 
-            <p>Spanish: basic knowledge </p>
+            <p>Spanish: basic knowledge</p>
 
         </div>
     </div>
@@ -150,7 +155,7 @@ include "header.php";
 
                 <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress.</p>
 
-                <p><b>C</b>: robust experience (loop invariant, strict methodology & concepts).</p>
+                <p><b>C</b>: robust experience (loop invariant, strict methodology & concepts, graphs).</p>
 
                 <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / MongoDB</p>
 
@@ -176,6 +181,12 @@ include "header.php";
                                                                                        target="new">Jenkins</a></p>
             </div>
         </div>
+        <!-- /col-lg-6 -->
+    </div>
+    <!-- /row -->
+</div>
+<div id="white">
+    <div class="container pt" id="skills">
         <div class="row mt">
             <div class="col-lg-12">
                 <h3>Skills "progress bar" (fancy, eh?):</h3>
@@ -233,55 +244,56 @@ include "header.php";
     </div>
     <!-- /row -->
 </div>
+<div id="grey">
+    <div class="container pt" id="work">
+        <div class="row mt">
+            <div class="col-lg-6 col-lg-offset-3 centered">
+                <h3>My work & projects</h3>
+                <hr>
+                <p>Click on a project to play!</p>
+            </div>
+        </div>
 
-<div class="container pt" id="work">
-    <div class="row mt">
-        <div class="col-lg-6 col-lg-offset-3 centered">
-            <h3>My work & projects</h3>
-            <hr>
-            <p>Click on a project to play!</p>
+        <div class="row mt centered">
+
+            <div class="col-lg-4">
+                <a class="zoom green" data-toggle="modal" href="assets/projects/boulder_dash.zip">
+                    <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash Game"/>
+                </a>
+
+                <h3>Boulder Dash</h3>
+
+                <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>,
+                    use of MVC pattern.</p>
+
+                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
+
+                <p>MD5 of zip: e1a500927c9fcb5770edfee5831dff13</p>
+            </div>
+
+            <div class="col-lg-4">
+                <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/srv.png"
+                         alt="Serveur de voeux"/>
+                </a>
+
+                <h3>Website for ENSSAT: Serveur de voeux</h3>
+
+                <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
+
+                <p>IDs to play:</p>
+                <ul>
+                    <li class="comp">USERNAME: <em>bvozel</em></li>
+                    <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h2>And more to come . . .</h2>
+            </div>
         </div>
     </div>
-
-    <div class="row mt centered">
-
-        <div class="col-lg-4">
-            <a class="zoom green" data-toggle="modal" href="assets/projects/boulder_dash.zip">
-                <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash Game"/>
-            </a>
-
-            <h3>Boulder Dash</h3>
-
-            <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>,
-                use of MVC pattern.</p>
-
-            <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
-
-            <p>MD5 of zip: e1a500927c9fcb5770edfee5831dff13</p>
-        </div>
-
-        <div class="col-lg-4">
-            <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
-                <img class="img-responsive" src="./assets/img/portfolio/srv.png"
-                     alt="Serveur de voeux"/>
-            </a>
-
-            <h3>Website for ENSSAT: Serveur de voeux</h3>
-
-            <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
-
-            <p>IDs to play:</p>
-            <ul>
-                <li class="comp">USERNAME: <em>bvozel</em></li>
-                <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
-            </ul>
-        </div>
-        <div class="col-lg-4">
-            <h2>And more to come . . .</h2>
-        </div>
-    </div>
+    <!-- /container -->
 </div>
-<!-- /container -->
 <?php
 include "footer.php";
 ?>
