@@ -146,12 +146,10 @@ include "header.php";
                 <h3>Development skills</h3>
                 <hr>
 
-                <p><b>Object-oriented programming</b>:
-                <ul>
-                    <li class="comp"><em>Java</em>: 2 years experience, several projects.</li>
-                    <li class="comp"><em>Scala</em>: beginner (but already great lover).</li>
-                </ul>
-                </p>
+                <p><b>Functional programming</b>: Scala, 1 year experience, daily use at work and for school
+                    projects. I do like Scala a lot and will definitely work with it on my future jobs.</p>
+
+                <p><b>Object-oriented programming</b>: Java, 2 years experience, several projects.</p
 
                 <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress.</p>
 
@@ -174,8 +172,7 @@ include "header.php";
 
                 <p>This website is for example built by a dockerized Jenkins at every push detected on GitHub, and
                     deployed automatically into a Docker ngnix/PHP contener. The reverse proxy which routes all my
-                    services
-                    on my server is also a dockerized ngnix.</p>
+                    services  on my server is also a dockerized ngnix.</p>
 
                 <p>See: <a href="https://www.docker.com/" target="new">Docker</a> / <a href="https://jenkins-ci.org/"
                                                                                        target="new">Jenkins</a></p>
@@ -191,19 +188,20 @@ include "header.php";
             <div class="col-lg-12">
                 <h3>Skills "progress bar" (fancy, eh?):</h3>
                 <hr>
+
+                Scala
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 70%;">
+                        <span class="sr-only">70% Complete</span>
+                    </div>
+                </div>
+
                 Java
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                          aria-valuemax="100" style="width: 80%;">
                         <span class="sr-only">80% Complete</span>
-                    </div>
-                </div>
-
-                Scala
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 50%;">
-                        <span class="sr-only">50% Complete</span>
                     </div>
                 </div>
 
