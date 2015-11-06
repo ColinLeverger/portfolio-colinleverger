@@ -149,15 +149,15 @@ include "header.php";
                 <p><b>Functional programming</b>: Scala, 1 year experience, daily use at work and for school
                     projects. I do like Scala a lot and will definitely work with it on my future jobs.</p>
 
+                <p><b>Git</b>: Daily use.</p>
+
                 <p><b>Object-oriented programming</b>: Java, 2 years experience, several projects.</p
 
-                <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress.</p>
+                <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress, Scala Play, JEE.</p>
 
                 <p><b>C</b>: robust experience (loop invariant, strict methodology & concepts, graphs).</p>
 
-                <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / MongoDB</p>
-
-                <p><b>Git</b>: Daily use.</p>
+                <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / NoSQL (MongoDB)</p>
 
             </div>
             <!-- /colg-lg-6 -->
@@ -286,7 +286,32 @@ include "header.php";
                 </ul>
             </div>
             <div class="col-lg-4">
+                <a class="zoom green" href="assets/projects/UML_COLIN_LEVERGER.pdf" rel="nofollow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/uml.png"
+                         alt="UML project"/>
+                </a>
+
+                <h3>Entire conception of product</h3>
+
+                <p>Use of <b>UML</b> and <b>UP</b> methodologies to design a fictive application.</p>
+
+                <p>The product is an app which will rationalize the means of transports in a city.</p>
+
+                <p>Click on the image to read the report in response to a Call for Proposals. Written in French.</p>
+            </div>
+        </div>
+
+        <div class="row mt centered">
+
+            <div class="col-lg-4">
                 <h2>And more to come . . .</h2>
+            </div>
+
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+
             </div>
         </div>
     </div>
