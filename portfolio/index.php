@@ -286,7 +286,7 @@ include "header.php";
                 </ul>
             </div>
             <div class="col-lg-4">
-                <a class="zoom green" href="assets/projects/UML_COLIN_LEVERGER.pdf" rel="nofollow" target="new">
+                <a class="zoom green" href="assets/projects/UML-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/uml.png"
                          alt="UML project"/>
                 </a>
@@ -304,11 +304,23 @@ include "header.php";
         <div class="row mt centered">
 
             <div class="col-lg-4">
-                <h2>And more to come . . .</h2>
+                <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/graphs.png"
+                         alt="UML project"/>
+                </a>
+
+                <h3>Scala code for Dijkstra & Warhall algorithms.</h3>
+
+                <p>Use of <b>Scala</b>, <b>SBT</b> and <b>Git</b>. Tests provided in "src/test" (eh, we are not
+                    uncivilized here, just trying to do a little DevOps...)</p>
+
+                <p>URL of GitLab project: <a href="https://gitlab.com/ColinLeverger/graphs-scala.git">here!</a></p>
+
+                <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
 
             <div class="col-lg-4">
-
+                <h2>And more to come . . .</h2>
             </div>
             <div class="col-lg-4">
 
