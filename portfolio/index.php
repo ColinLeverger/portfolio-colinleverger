@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
-    <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer" />
+    <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer"/>
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
     <title>Colin LEVERGER</title>
@@ -172,7 +172,7 @@ include "header.php";
 
                 <p>This website is for example built by a dockerized Jenkins at every push detected on GitHub, and
                     deployed automatically into a Docker ngnix/PHP contener. The reverse proxy which routes all my
-                    services  on my server is also a dockerized ngnix.</p>
+                    services on my server is also a dockerized ngnix.</p>
 
                 <p>See: <a href="https://www.docker.com/" target="new">Docker</a> / <a href="https://jenkins-ci.org/"
                                                                                        target="new">Jenkins</a></p>
@@ -261,7 +261,8 @@ include "header.php";
 
                 <h3>Boulder Dash</h3>
 
-                <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in <b>Java</b>,
+                <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in
+                    <b>Java</b>,
                     use of MVC pattern.</p>
 
                 <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
@@ -306,7 +307,7 @@ include "header.php";
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/graphs.png"
-                         alt="UML project"/>
+                         alt="Graphs project"/>
                 </a>
 
                 <h3>Scala code for Dijkstra & Warhall algorithms.</h3>
@@ -320,10 +321,23 @@ include "header.php";
             </div>
 
             <div class="col-lg-4">
-                <h2>And more to come . . .</h2>
+                <a class="zoom green" href="https://github.com/ColinLeverger/VaultChat.git" rel="follow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/vaultchat.png"
+                         alt="Vault Chat"/>
+                </a>
+
+                <h3>VaultChat.</h3>
+
+                <p>School project; subject: decentralized and distributed system. Communication
+                    between fictive atomics shelters. Use of critical section and mutex to make the communications secure
+                    and parallel.</p>
+
+                <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
+
+                <p>Click on the image to see the code via Github.</p>
             </div>
             <div class="col-lg-4">
-
+                <h2>And more to come . . .</h2>
             </div>
         </div>
     </div>
