@@ -310,7 +310,7 @@ include "header.php";
                          alt="Graphs project"/>
                 </a>
 
-                <h3>Scala code for Dijkstra & Warhall algorithms.</h3>
+                <h3>Scala code for Dijkstra & Warhall algorithms</h3>
 
                 <p>Use of <b>Scala</b>, <b>SBT</b> and <b>Git</b>. Tests provided in "src/test" (eh, we are not
                     uncivilized here, just trying to do a little DevOps...)</p>
@@ -326,7 +326,7 @@ include "header.php";
                          alt="Vault Chat"/>
                 </a>
 
-                <h3>VaultChat.</h3>
+                <h3>VaultChat</h3>
 
                 <p>School project; subject: decentralized and distributed system. Communication
                     between fictive atomics shelters. Use of critical section and mutex to make the communications secure
