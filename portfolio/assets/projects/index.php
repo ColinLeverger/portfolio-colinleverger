@@ -1,1 +1,0 @@
-<?php header("Location: http://www.colinleverger.fr\n\n"); ?>
