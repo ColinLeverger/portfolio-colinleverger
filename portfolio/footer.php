@@ -7,7 +7,7 @@
                 <h4>Contact:</h4>
 
                 <p>
-                    <span itemprop="email">me [at] colinleverger [dot] fr</span><br/>
+                    <span itemprop="email">colinleverger [at] gmail [dot] com</span><br/>
                     +33.(0)6.33.50.47.22
                 </p>
             </div>

@@ -26,7 +26,14 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript"> CRISP_WEBSITE_ID = "-K6Ecb9g6wJX4bDscBFf";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.im/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+    <script type="text/javascript"> CRISP_WEBSITE_ID = "-K6Ecb9g6wJX4bDscBFf";
+        (function () {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.im/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })(); </script>
 </head>
 
 <body class="index">
@@ -127,7 +134,7 @@ include "header.php";
             <h3>Languages:</h3>
             <hr>
 
-            <p>French: native tongue</p>
+            <p>French: native</p>
 
             <p>English: fluent & good technical skills (B2 level)</p>
 
@@ -142,17 +149,20 @@ include "header.php";
 <div id="grey">
     <div class="container pt" id="skills">
         <div class="row mt">
-            <div class="col-lg-6">
-
+            <div class="col-lg-6 col-lg-offset-3 centered">
                 <h3>Development skills</h3>
                 <hr>
+            </div>
+        </div>
+        <div class="row mt">
+            <div class="col-lg-12">
 
-                <p><b>Functional programming</b>: Scala, 1 year experience, daily use at work and for school
+                <p><b>Functional programming</b>: Scala, 1 year and an half experience, daily use at work and for school
                     projects. I do like Scala a lot and will definitely work with it on my future jobs.</p>
 
                 <p><b>Git</b>: Daily use.</p>
 
-                <p><b>Object-oriented programming</b>: Java, 2 years experience, several projects.</p
+                <p><b>Object-oriented programming</b>: Java, 3 years experience, several projects.</p>
 
                 <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress, Scala Play, JEE.</p>
 
@@ -161,89 +171,116 @@ include "header.php";
                 <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / NoSQL (MongoDB)</p>
 
             </div>
-            <!-- /colg-lg-6 -->
+        </div>
+        <!-- /col-lg-6 -->
+    </div>
+    <!-- /row -->
+</div>
 
-            <div class="col-lg-6">
-                <h3>DevOps & Virtualization stuff</h3>
+<div id="white">
+    <div class="container pt" id="devops">
+        <div class="row mt">
+            <div class="col-lg-6 col-lg-offset-3 centered">
+                <h3>DevOps & Continuous delivery</h3>
                 <hr>
-
-                <p>I love both DevOps and continuous delivery; this is my thing and I like to experiment.</p>
-
-                <p>I play a lot with <b>Docker</b> and <b>Jenkins</b> on my personal server.</p>
-
-                <p>This website is for example built by a dockerized Jenkins at every push detected on GitHub, and
-                    deployed automatically into a Docker ngnix/PHP contener. The reverse proxy which routes all my
-                    services on my server is also a dockerized ngnix.</p>
-
-                <p>See: <a href="https://www.docker.com/" target="new">Docker</a> / <a href="https://jenkins-ci.org/"
-                                                                                       target="new">Jenkins</a></p>
             </div>
+        </div>
+        <div class="row mt">
+
+            <p>I have a strong knowledge of continuous delivery. I do not like to repeat painful things, especially when
+                it concern the test & delivery of a software I wrote. I like to be a "lazy" (but smart thought...)
+                developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
+                and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
+
+            <p>I am making strong efforts on testing my tools and software: without tests, the solutions are not
+                maintainable, plus it assure a non-regression of the code: and that is everything we want, right? I am
+                using SBT to test my code (because SBT is waaaaay cool and powerful).</p>
+
+            <p>Jenkins is working hand by hand with Docker to build web and Java projects automatically. A push on
+                GitHub, and "voilà", everything is packaged and ready (without any intervention from me), that's all
+                folks.</p>
+
+            <p>All the services I try / use are deployed on my faithful Docker. I can count on it's simplicity and
+                reliability for every environment I need.</p>
+
+        </div>
+        <div class="row mt">
+            <div class="col-lg-6 col-lg-offset-3 centered">
+                <h3>My typical workflow</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row mt centered">
+            <img class="img-responsive" src="./assets/img/wf.png"
+                 alt="Colin's Workflow"/>
+        </div>
+    </div>
+</div>
+
+<div id="grey">
+    <div class="container pt" id="skills">
+        <div class="row mt">
+            <div class="col-lg-6 col-lg-offset-3 centered">
+                <h3>Skills "progress bar" (fancy, eh?):</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row mt">
+
+            Unix / System
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 90%;">
+                    <span class="sr-only">90% Complete</span>
+                </div>
+            </div>
+
+            Scala / Java
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 85%;">
+                    <span class="sr-only">85% Complete</span>
+                </div>
+            </div>
+
+            Docker
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 83%;">
+                    <span class="sr-only">83% Complete</span>
+                </div>
+            </div>
+
+            Continuous delivery / software testing
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 80%;">
+                    <span class="sr-only">80% Complete</span>
+                </div>
+            </div>
+
+            Jenkins
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 75%;">
+                    <span class="sr-only">75% Complete</span>
+                </div>
+            </div>
+
+            HTML/CSS + PHP
+            <div class="progress">
+                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 70%;">
+                    <span class="sr-only">70% Complete</span>
+                </div>
+            </div>
+
         </div>
         <!-- /col-lg-6 -->
     </div>
     <!-- /row -->
 </div>
 <div id="white">
-    <div class="container pt" id="skills">
-        <div class="row mt">
-            <div class="col-lg-12">
-                <h3>Skills "progress bar" (fancy, eh?):</h3>
-                <hr>
-
-                Scala
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 70%;">
-                        <span class="sr-only">70% Complete</span>
-                    </div>
-                </div>
-
-                Java
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 80%;">
-                        <span class="sr-only">80% Complete</span>
-                    </div>
-                </div>
-
-                HTML + CSS
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 80%;">
-                        <span class="sr-only">80% Complete</span>
-                    </div>
-                </div>
-
-                Docker
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
-                        <span class="sr-only">75% Complete</span>
-                    </div>
-                </div>
-
-                Jenkins
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 65%;">
-                        <span class="sr-only">65% Complete</span>
-                    </div>
-                </div>
-
-                Unix / System
-                <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 90%;">
-                        <span class="sr-only">90% Complete</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /col-lg-6 -->
-    </div>
-    <!-- /row -->
-</div>
-<div id="grey">
     <div class="container pt" id="work">
         <div class="row mt">
             <div class="col-lg-6 col-lg-offset-3 centered">
@@ -330,7 +367,8 @@ include "header.php";
                 <h3>VaultChat</h3>
 
                 <p>School project; subject: decentralized and distributed system. Communication
-                    between fictive atomics shelters. Use of critical section and mutex to make the communications secure
+                    between fictive atomics shelters. Use of critical section and mutex to make the communications
+                    secure
                     and parallel.</p>
 
                 <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>

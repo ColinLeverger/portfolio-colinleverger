@@ -9,6 +9,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#devops">DevOps</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#footer">Contact</a></li>
                     <li><a href="assets/pdf/Colin-LEVERGER.pdf">CV</a></li>

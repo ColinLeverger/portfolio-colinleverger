@@ -59,7 +59,7 @@ p {
 
 /* Links */
 a {
-    color: #27ae60;
+    color: #4CAF50;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -109,7 +109,7 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #27ae60;
+	background-color: #4CAF50;
 	border-color: #16a085;
 }
 
@@ -136,7 +136,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #27ae60;
+  background-color: #4CAF50;
 }
 
 
@@ -258,5 +258,5 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #27ae60;
+	color: #4CAF50;
 }
