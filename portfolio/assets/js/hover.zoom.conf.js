@@ -7,7 +7,7 @@ $(function () {
     });
 
     $('.green').hoverZoom({
-        overlayColor: '#27ae60',
+        overlayColor: '#4CAF50',
         zoom: 0
     });
 

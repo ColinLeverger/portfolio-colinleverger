@@ -26,14 +26,14 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript"> CRISP_WEBSITE_ID = "-K6Ecb9g6wJX4bDscBFf";
+    <script type="text/javascript">CRISP_WEBSITE_ID = "-K6Ecb9g6wJX4bDscBFf";
         (function () {
             d = document;
             s = d.createElement("script");
             s.src = "https://client.crisp.im/l.js";
             s.async = 1;
             d.getElementsByTagName("head")[0].appendChild(s);
-        })(); </script>
+        })();</script>
 </head>
 
 <body class="index">
