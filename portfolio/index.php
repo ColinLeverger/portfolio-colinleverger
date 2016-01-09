@@ -186,23 +186,27 @@ include "header.php";
             </div>
         </div>
         <div class="row mt">
+            <div class="col-lg-12">
 
-            <p>I have a strong knowledge of continuous delivery. I do not like to repeat painful things, especially when
-                it concern the test & delivery of a software I wrote. I like to be a "lazy" (but smart thought...)
-                developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
-                and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
+                <p>I have a strong knowledge of continuous delivery. I do not like to repeat painful things, especially
+                    when
+                    it concern the test & delivery of a software I wrote. I like to be a "lazy" (but smart thought...)
+                    developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
+                    and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
 
-            <p>I am making strong efforts on testing my tools and software: without tests, the solutions are not
-                maintainable, plus it assure a non-regression of the code: and that is everything we want, right? I am
-                using SBT to test my code (because SBT is waaaaay cool and powerful).</p>
+                <p>I am making strong efforts on testing my tools and software: without tests, the solutions are not
+                    maintainable, plus it assure a non-regression of the code: and that is everything we want, right? I
+                    am
+                    using SBT to test my code (because SBT is waaaaay cool and powerful).</p>
 
-            <p>Jenkins is working hand by hand with Docker to build web and Java projects automatically. A push on
-                GitHub, and "voilà", everything is packaged and ready (without any intervention from me), that's all
-                folks.</p>
+                <p>Jenkins is working hand by hand with Docker to build web and Java projects automatically. A push on
+                    GitHub, and "voilà", everything is packaged and ready (without any intervention from me), that's all
+                    folks.</p>
 
-            <p>All the services I try / use are deployed on my faithful Docker. I can count on it's simplicity and
-                reliability for every environment I need.</p>
+                <p>All the services I try / use are deployed on my faithful Docker. I can count on it's simplicity and
+                    reliability for every environment I need.</p>
 
+            </div>
         </div>
         <div class="row mt">
             <div class="col-lg-6 col-lg-offset-3 centered">
@@ -226,55 +230,55 @@ include "header.php";
             </div>
         </div>
         <div class="row mt">
+            <div class="col-lg-12">
+                Unix / System
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 90%;">
+                        <span class="sr-only">90% Complete</span>
+                    </div>
+                </div>
 
-            Unix / System
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 90%;">
-                    <span class="sr-only">90% Complete</span>
+                Scala / Java
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 85%;">
+                        <span class="sr-only">85% Complete</span>
+                    </div>
+                </div>
+
+                Docker
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 83%;">
+                        <span class="sr-only">83% Complete</span>
+                    </div>
+                </div>
+
+                Continuous delivery / software testing
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 80%;">
+                        <span class="sr-only">80% Complete</span>
+                    </div>
+                </div>
+
+                Jenkins
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 75%;">
+                        <span class="sr-only">75% Complete</span>
+                    </div>
+                </div>
+
+                HTML/CSS + PHP
+                <div class="progress">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 70%;">
+                        <span class="sr-only">70% Complete</span>
+                    </div>
                 </div>
             </div>
-
-            Scala / Java
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 85%;">
-                    <span class="sr-only">85% Complete</span>
-                </div>
-            </div>
-
-            Docker
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="83" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 83%;">
-                    <span class="sr-only">83% Complete</span>
-                </div>
-            </div>
-
-            Continuous delivery / software testing
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 80%;">
-                    <span class="sr-only">80% Complete</span>
-                </div>
-            </div>
-
-            Jenkins
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 75%;">
-                    <span class="sr-only">75% Complete</span>
-                </div>
-            </div>
-
-            HTML/CSS + PHP
-            <div class="progress">
-                <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                     aria-valuemax="100" style="width: 70%;">
-                    <span class="sr-only">70% Complete</span>
-                </div>
-            </div>
-
         </div>
         <!-- /col-lg-6 -->
     </div>
