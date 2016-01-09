@@ -293,7 +293,6 @@ include "header.php";
                 <p>Click on a project to play!</p>
             </div>
         </div>
-
         <div class="row mt centered">
 
             <div class="col-lg-4">
