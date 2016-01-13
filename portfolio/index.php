@@ -190,20 +190,19 @@ include "header.php";
 
                 <p>I have a strong knowledge of continuous delivery. I do not like to repeat painful things, especially
                     when
-                    it concern the test & delivery of a software I wrote. I like to be a "lazy" (but smart thought...)
+                    it concerns the test & delivery of a software I wrote. I like to be a "lazy" (but smart though...)
                     developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
                     and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
 
-                <p>I am making strong efforts on testing my tools and software: without tests, the solutions are not
-                    maintainable, plus it assure a non-regression of the code: and that is everything we want, right? I
-                    am
-                    using SBT to test my code (because SBT is waaaaay cool and powerful).</p>
+                <p>I make strong efforts to test my tools and software: without tests, the solutions are not
+                    maintainable, plus it assures a non-regression of the code: and that is everything we want, right? I
+                    am using SBT to test my code (because SBT is waaaaay cool and powerful).</p>
 
                 <p>Jenkins is working hand by hand with Docker to build web and Java projects automatically. A push on
                     GitHub, and "voilà", everything is packaged and ready (without any intervention from me), that's all
                     folks.</p>
 
-                <p>All the services I try / use are deployed on my faithful Docker. I can count on it's simplicity and
+                <p>All the services I try / use are deployed on my faithful Docker. I can count on its simplicity and
                     reliability for every environment I need.</p>
 
             </div>
