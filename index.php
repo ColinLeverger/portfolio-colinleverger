@@ -295,7 +295,7 @@ include "header.php";
         <div class="row mt centered">
 
             <div class="col-lg-4">
-                <a class="zoom green" data-toggle="modal" href="assets/projects/boulder_dash.zip">
+                <a class="zoom green" data-toggle="modal" href="https://github.com/ColinLeverger/boulder-dash">
                     <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash Game"/>
                 </a>
 
@@ -305,9 +305,6 @@ include "header.php";
                     <b>Java</b>,
                     use of MVC pattern.</p>
 
-                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
-
-                <p>MD5 of zip: e1a500927c9fcb5770edfee5831dff13</p>
             </div>
 
             <div class="col-lg-4">

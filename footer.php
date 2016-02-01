@@ -2,14 +2,19 @@
 
 <div id="footer">
     <div class="container">
-        <div class="row">
+        <div class="row centered">
             <div class="col-lg-4">
                 <h4>Contact:</h4>
 
                 <p>
-                    <span itemprop="email">colinleverger [at] gmail [dot] com</span><br/>
-                    +33.(0)6.33.50.47.22
+                    <a href="mailto:colinleverger@gmail.com">
+                        <img class="icons" width="40" height="40" src="./assets/img/mail-logo.png" alt="Mail">
+                    </a>
+                    <a href="tel:0033633504722">
+                        <img class="icons" width="40" height="40" src="./assets/img/phone-logo.png" alt="Phone">
+                    </a>
                 </p>
+
             </div>
             <!-- /col-lg-4 -->
 
@@ -17,20 +22,31 @@
                 <h4>Meet me on:</h4>
 
                 <p>
-                    <a href="https://github.com/ColinLeverger/">Github</a><br/>
-                    <a href="https://plus.google.com/u/0/+ColinLeverger/">Google+</a><br/>
-                    <a href="http://www.youtube.fr/colinleverger">YouTube</a><br/>
-                    <a href="https://open.spotify.com/user/colinleverger">Spotify</a>
+                    <a href="https://linkedin.com/in/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="./assets/img/linkedin-logo.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://plus.google.com/+ColinLeverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="./assets/img/googleplus-logo.png" alt="Google+">
+                    </a>
+                    <a href="https://youtube.com/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="./assets/img/youtube-logo.png" alt="YouTube">
+                    </a>
+                    <a href="skype:colin.leverger5" target="_blank">
+                        <img class="icons" width="40" height="40" src="./assets/img/skype-logo.png" alt="Skype">
+                    </a>
+                    <a href="https://github.com/ColinLeverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="./assets/img/github-logo.png" alt="Github">
+                    </a>
                 </p>
             </div>
             <!-- /col-lg-4 -->
 
             <div class="col-lg-4">
-                <h4>Professionals profiles:</h4>
-
+                <h4>It was nice to see you. :)</h4>
                 <p>
-                    <a href="https://fr.linkedin.com/in/colinleverger">LinkedIn</a><br/>
-                    <a href="http://www.viadeo.com/profile/002uupglabnbyxs">Viadeo</a><br/>
+                    <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
+                        from France
+                    </small>
                 </p>
             </div>
         </div>
@@ -46,10 +62,17 @@
 <!-- Google analytics
 ================================================== -->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-65401319-1', 'auto');
     ga('send', 'pageview');

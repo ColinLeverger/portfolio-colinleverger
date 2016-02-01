@@ -209,6 +209,15 @@ bt {
     font-size: 12px;
 }
 
+.icons{
+    transition: 500ms;
+}
+
+.icons:hover{
+    opacity: 0.5;
+    transition: 500ms;
+}
+
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
 .zoom {
