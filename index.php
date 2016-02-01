@@ -188,18 +188,23 @@ include "header.php";
         <div class="row mt">
             <div class="col-lg-12">
 
-                <p>I have a strong knowledge of continuous delivery. I do not like to <b>repeat painful things</b>, especially
-                    when it concerns the <b>test & delivery</b> of a software I wrote. I like to be a "lazy" (but smart though...)
+                <p>I have a strong knowledge of continuous delivery. I do not like to <b>repeat painful things</b>,
+                    especially
+                    when it concerns the <b>test & delivery</b> of a software I wrote. I like to be a "lazy" (but smart
+                    though...)
                     developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
                     and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
 
                 <p>I make strong efforts to <b>test my tools and software</b>: without tests, the solutions are not
                     maintainable, plus it assures a non-regression of the code: and that is everything we want, right? I
-                    am using SBT to test my code (because SBT is waaaaay cool and powerful). I follow a <b>Test-Driven Development</b>
+                    am using SBT to test my code (because SBT is waaaaay cool and powerful). I follow a <b>Test-Driven
+                        Development</b>
                     process at work, and also for personal projects.</p>
 
-                <p>Jenkins is working hand by hand with Docker to build web and Java projects <b>automatically</b>. A push on
-                    GitHub, and "voilà", everything is <b>packaged and ready</b> (without any intervention from me), that's all
+                <p>Jenkins is working hand by hand with Docker to build web and Java projects <b>automatically</b>. A
+                    push on
+                    GitHub, and "voilà", everything is <b>packaged and ready</b> (without any intervention from me),
+                    that's all
                     folks.</p>
 
                 <p>All the services I try / use are deployed on my faithful Docker. I can count on its simplicity and
@@ -295,8 +300,8 @@ include "header.php";
         <div class="row mt centered">
 
             <div class="col-lg-4">
-                <a class="zoom green" data-toggle="modal" href="https://github.com/ColinLeverger/boulder-dash">
-                    <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash Game"/>
+                <a class="zoom green" data-toggle="modal" href="./assets/projects/BOULDER.pdf">
+                    <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash report"/>
                 </a>
 
                 <h3>Boulder Dash</h3>
@@ -305,8 +310,10 @@ include "header.php";
                     <b>Java</b>,
                     use of MVC pattern.</p>
 
-            </div>
+                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
 
+                <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
+            </div>
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/srv.png"
@@ -340,7 +347,6 @@ include "header.php";
         </div>
 
         <div class="row mt centered">
-
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/graphs.png"
@@ -372,7 +378,7 @@ include "header.php";
 
                 <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
 
-                <p>Click on the image to see the code via Github.</p>
+                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/VaultChat.git">here!</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>And more to come . . .</h2>
