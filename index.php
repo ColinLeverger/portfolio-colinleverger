@@ -303,7 +303,7 @@ include "header.php";
             <div class="col-lg-6 col-lg-offset-3 centered">
                 <h3>My work & projects</h3>
                 <hr>
-                <p>Click on a project to play!</p>
+                <p>Click on a project to play! TEST</p>
             </div>
         </div>
         <div class="row mt centered">
