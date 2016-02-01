@@ -7,7 +7,7 @@
     <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
     <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer"/>
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico" >
 
     <title>Colin LEVERGER</title>
 
