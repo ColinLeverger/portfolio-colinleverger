@@ -7,7 +7,7 @@
     <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
     <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer"/>
-    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title>Colin LEVERGER</title>
 
@@ -20,6 +20,8 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
+    <script src="assets/js/bootstrap-progressbar.js"></script>
+    <script src="assets/js/noframework.waypoints.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -224,9 +226,8 @@ include "header.php";
         </div>
     </div>
 </div>
-
 <div id="grey">
-    <div class="container pt" id="skills">
+    <div class="container pt" id='skills-bar'>
         <div class="row mt">
             <div class="col-lg-6 col-lg-offset-3 centered">
                 <h3>Skills "progress bar" (fancy, eh?):</h3>
@@ -237,53 +238,61 @@ include "header.php";
             <div class="col-lg-12">
                 Unix / System
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="90">
                         <span class="sr-only">90% Complete</span>
                     </div>
                 </div>
 
                 Scala / Java
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 85%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="85">
                         <span class="sr-only">85% Complete</span>
                     </div>
                 </div>
 
                 Docker
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="83" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 83%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="83">
                         <span class="sr-only">83% Complete</span>
                     </div>
                 </div>
 
                 Continuous delivery / software testing
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 80%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="80">
                         <span class="sr-only">80% Complete</span>
                     </div>
                 </div>
 
                 Jenkins
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="75">
                         <span class="sr-only">75% Complete</span>
                     </div>
                 </div>
 
                 HTML/CSS + PHP
                 <div class="progress">
-                    <div class="progress-bar progress-bar-theme" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="70">
                         <span class="sr-only">70% Complete</span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script>
+            /*$(document).ready(function() {
+             $('.progress .progress-bar').progressbar();
+             });*/
+
+            var waypoint = new Waypoint({
+                element: document.getElementById('skills-bar'),
+                handler: function () {
+                    $('.progress .progress-bar').progressbar();
+                },
+                offset: 110
+            })
+        </script>
         <!-- /col-lg-6 -->
     </div>
     <!-- /row -->
@@ -301,7 +310,8 @@ include "header.php";
 
             <div class="col-lg-4">
                 <a class="zoom green" data-toggle="modal" href="./assets/projects/BOULDER.pdf">
-                    <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png" alt="Boulder Dash report"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png"
+                         alt="Boulder Dash report"/>
                 </a>
 
                 <h3>Boulder Dash</h3>
