@@ -55,5 +55,15 @@ $(function () {
     });
 });
 
+$(function () {
+    new Waypoint({
+        element: document.getElementById('skills-bar'),
+        handler: function () {
+            $('.progress .progress-bar').progressbar();
+        },
+        offset: 110
+    })
+});
+
 
 

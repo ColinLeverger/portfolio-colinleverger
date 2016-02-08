@@ -38,129 +38,104 @@
         })();</script>
 </head>
 
-<body class="index">
-
+<body>
 <?php
 include "header.php";
 ?>
-
-<!-- +++++ Welcome Section +++++ -->
 <div id="top">
-    <div class="container">
+    <div class="container centered">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 centered">
-                <img src="./assets/img/colinleverger.jpg" class="circular" alt="Colin LEVERGER">
-
-                <h1>Colin LEVERGER</h1>
-                <hr>
-
-                <p>I am a young developer & an engineering student, and you are welcome
-                    to my web-portfolio.</p>
+            <div class="col-lg-4 mt">
+                <a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
+                    <img src="./assets/img/colinleverger.jpg" class="circular" alt="Colin LEVERGER">
+                </a>
+            </div>
+            <div class="col-lg-8">
+                <p>I am a young developer & an engineering student, and you are welcome to my web-portfolio.</p>
 
                 <p>I've always been interested in new technologies & computing science, that's why I'm currently working
                     as an apprentice engineer at the Orange company.
-                    I have the opportunity to work with <em>DevOps tools</em> such as <b>Jenkins</b>, <b>Scala</b>, <b>Scala
-                        SBT</b>, <b>Docker</b>, and also to learn how the application performance management works in
-                    the
-                    Orange's Application Performance Experts team.</p>
+                    I have the opportunity to work with <b>DevOps tools</b> such as <b>Jenkins</b>, <b>Scala</b>,
+                    <b>Scala SBT</b>, <b>Docker</b>, and also to learn how the application performance management works
+                    in the Orange's Application Performance Experts team.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
                     projects.</p>
-
             </div>
-            <!-- /col-lg-8 -->
-        </div>
-        <!-- /row -->
-    </div>
-    <!-- /container -->
-</div>
-<!-- /welcome -->
-
-<div id="about" class="container pt">
-    <div class="row mt centered">
-        <div class="col-lg-3">
-            <span class="glyphicon glyphicon-user"></span>
-
-            <h3>About me:</h3>
-            <hr>
-
-            <p>21 y-o</p>
-
-            <p>
-                <a href="https://www.google.fr/maps/place/Rennes/@48.1159156,-1.6884545,13z/data=!3m1!4b1!4m2!3m1!1s0x480ede2fa7d69085:0x40ca5cd36e4ab30"
-                   target="new">
-                    Rennes</a> city - France</p>
-
-            <p>Guitarist / Singer / Music player & lover</p>
-
-            <p>Driving licence</p>
-        </div>
-
-        <div class="col-lg-3">
-            <span class="glyphicon glyphicon-book"></span>
-
-            <h3>Studies:</h3>
-            <hr>
-
-            <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a>
-                Lannion -
-                Computing
-                Science</p>
-
-            <p>2014: D.U.T <a
-                    href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii"
-                    target="new">GEII</a>,
-                Rennes (Technical Degree in Electronics & Computing Sciences) </p>
-        </div>
-
-        <div class="col-lg-3">
-            <span class="glyphicon glyphicon-plane"></span>
-
-            <h3>Travels:</h3>
-            <hr>
-
-            <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during half
-                a semester in
-                an internship</p>
-
-            <p>2013 (<em>15 days</em>): Scotland, Glasgow</p>
-
-            <p>2012 (<em>10 days</em>): England, Reading</p>
-
-            <p>& many others...</p>
-        </div>
-
-        <div class="col-lg-3">
-            <span class="glyphicon glyphicon-globe"></span>
-
-            <h3>Languages:</h3>
-            <hr>
-
-            <p>French: native</p>
-
-            <p>English: fluent & good technical skills (B2 level)</p>
-
-            <p>Spanish: basic knowledge</p>
-
         </div>
     </div>
-    <!-- /row -->
 </div>
-<!-- /container -->
+<div id="white">
+    <div class="container pt" id="about">
+        <div class="row centered">
+            <div class="col-lg-3">
+                <span class="glyphicon glyphicon-user"></span>
 
-<div id="grey">
-    <div class="container pt" id="skills">
-        <div class="row mt">
-            <div class="col-lg-6 col-lg-offset-3 centered">
-                <h3>Development skills</h3>
+                <h3>About me:</h3>
                 <hr>
+
+                <p>22 y-o</p>
+
+                <p><a href="https://goo.gl/maps/6ZnmBmoNSkp" target="new">Rennes</a> city - France</p>
+
+                <p>Guitarist / Singer / Music player & lover</p>
+            </div>
+            <div class="col-lg-3">
+                <span class="glyphicon glyphicon-book"></span>
+
+                <h3>Studies:</h3>
+                <hr>
+
+                <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a>
+                    Lannion - Computing Science</p>
+
+                <p>2014: D.U.T
+                    <a href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii"
+                       target="new">
+                        GEII
+                    </a>,
+                    Rennes (Technical Degree in Electronics & Computing Sciences) </p>
+            </div>
+            <div class="col-lg-3">
+                <span class="glyphicon glyphicon-plane"></span>
+
+                <h3>Travels:</h3>
+                <hr>
+
+                <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
+                    an
+                    internship</p>
+
+                <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
+
+                <p>2012 (<em>10 days</em>): England, Reading</p>
+
+                <p>& many others. . .</p>
+            </div>
+            <div class="col-lg-3">
+                <span class="glyphicon glyphicon-globe"></span>
+
+                <h3>Languages:</h3>
+                <hr>
+
+                <p>French: native</p>
+
+                <p>English: fluent & good technical skills (B2 level)</p>
+
+                <p>Spanish: basic knowledge</p>
             </div>
         </div>
-        <div class="row mt">
-            <div class="col-lg-12">
+    </div>
+</div>
+<div id="grey">
+    <div class="container pt" id='skills-bar'>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="centered">Development skills</h3>
+                <hr>
 
                 <p><b>Functional programming</b>: Scala, 1 year and an half experience, daily use at work and for school
-                    projects. I do like Scala a lot and will definitely work with it on my future jobs.</p>
+                    projects.</p>
 
                 <p><b>Git</b>: Daily use.</p>
 
@@ -171,71 +146,10 @@ include "header.php";
                 <p><b>C</b>: robust experience (loop invariant, strict methodology & concepts, graphs).</p>
 
                 <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / NoSQL (MongoDB)</p>
-
             </div>
-        </div>
-        <!-- /col-lg-6 -->
-    </div>
-    <!-- /row -->
-</div>
-
-<div id="white">
-    <div class="container pt" id="devops">
-        <div class="row mt">
-            <div class="col-lg-6 col-lg-offset-3 centered">
-                <h3>DevOps & Continuous delivery</h3>
+            <div class="col-lg-6">
+                <h3 class="centered">Skills "progress bar" (fancy, eh?):</h3>
                 <hr>
-            </div>
-        </div>
-        <div class="row mt">
-            <div class="col-lg-12">
-
-                <p>I have a strong knowledge of continuous delivery. I do not like to <b>repeat painful things</b>,
-                    especially
-                    when it concerns the <b>test & delivery</b> of a software I wrote. I like to be a "lazy" (but smart
-                    though...)
-                    developer. <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>
-                    and <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
-
-                <p>I make strong efforts to <b>test my tools and software</b>: without tests, the solutions are not
-                    maintainable, plus it assures a non-regression of the code: and that is everything we want, right? I
-                    am using SBT to test my code (because SBT is waaaaay cool and powerful). I follow a <b>Test-Driven
-                        Development</b>
-                    process at work, and also for personal projects.</p>
-
-                <p>Jenkins is working hand by hand with Docker to build web and Java projects <b>automatically</b>. A
-                    push on
-                    GitHub, and "voilà", everything is <b>packaged and ready</b> (without any intervention from me),
-                    that's all
-                    folks.</p>
-
-                <p>All the services I try / use are deployed on my faithful Docker. I can count on its simplicity and
-                    reliability for every environment I need.</p>
-
-            </div>
-        </div>
-        <div class="row mt">
-            <div class="col-lg-6 col-lg-offset-3 centered">
-                <h3>My typical workflow</h3>
-                <hr>
-            </div>
-        </div>
-        <div class="row mt centered">
-            <img class="img-responsive" src="./assets/img/wf.png"
-                 alt="Colin's Workflow"/>
-        </div>
-    </div>
-</div>
-<div id="grey">
-    <div class="container pt" id='skills-bar'>
-        <div class="row mt">
-            <div class="col-lg-6 col-lg-offset-3 centered">
-                <h3>Skills "progress bar" (fancy, eh?):</h3>
-                <hr>
-            </div>
-        </div>
-        <div class="row mt">
-            <div class="col-lg-12">
                 Unix / System
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="90">
@@ -279,34 +193,67 @@ include "header.php";
                 </div>
             </div>
         </div>
-
-        <script>
-            /*$(document).ready(function() {
-             $('.progress .progress-bar').progressbar();
-             });*/
-
-            var waypoint = new Waypoint({
-                element: document.getElementById('skills-bar'),
-                handler: function () {
-                    $('.progress .progress-bar').progressbar();
-                },
-                offset: 110
-            })
-        </script>
-        <!-- /col-lg-6 -->
     </div>
-    <!-- /row -->
 </div>
 <div id="white">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title centered">DevOps & Continuous delivery</h3>
+                </div>
+                <div class="modal-body">
+                    <p>I have a strong knowledge of continuous delivery. I do not like to
+                        <b>repeat painful things</b>, especially when it concerns the <b>test & delivery</b> of a
+                        software I wrote. I like to be a "lazy" (but smart though...) developer.
+                        <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a> and
+                        <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
+
+                    <p>I make strong efforts to <b>test my tools and software</b>: without tests, the solutions are
+                        not maintainable, plus it assures a non-regression of the code: and that is everything we want,
+                        right? I am using SBT to test my code (because SBT is waaaaay cool and powerful). I follow a
+                        <b>Test-Driven Development</b> process at work, and also for personal projects.</p>
+
+                    <p>Jenkins is working hand by hand with Docker to build web and Java projects
+                        <b>automatically</b>. A push on GitHub, and "voilà", everything is <b>packaged and
+                            ready</b> (without any intervention from me), that's all folks.</p>
+
+                    <p>All the services I try / use are deployed on my faithful Docker. I can count on its
+                        simplicity and reliability for every environment I need.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt" id="devops">
+        <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3 centered">
+                <h3>My typical workflow</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row centered">
+            <img class="img-responsive" src="./assets/img/wf.png" alt="Colin's Workflow"/>
+        </div>
+        <div class="row centered pt">
+            <a data-toggle="modal" data-target="#myModal" href="#">Click here for some details on my DevOps
+                abilities</a>
+        </div>
+    </div>
+</div>
+<div id="grey">
     <div class="container pt" id="work">
-        <div class="row mt">
+        <div class="row ">
             <div class="col-lg-6 col-lg-offset-3 centered">
                 <h3>My work & projects</h3>
                 <hr>
-                <p>Click on a project to play!</p>
+                <p>Click on a project to learn more!</p>
             </div>
         </div>
-        <div class="row mt centered">
+        <div class="row  centered">
 
             <div class="col-lg-4">
                 <a class="zoom green" data-toggle="modal" href="./assets/projects/BOULDER.pdf">
@@ -317,8 +264,7 @@ include "header.php";
                 <h3>Boulder Dash</h3>
 
                 <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in
-                    <b>Java</b>,
-                    use of MVC pattern.</p>
+                    <b>Java</b>, use of MVC pattern.</p>
 
                 <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
 
@@ -326,8 +272,7 @@ include "header.php";
             </div>
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/srv.png"
-                         alt="Serveur de voeux"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/srv.png" alt="Serveur de voeux"/>
                 </a>
 
                 <h3>Website for ENSSAT: Serveur de voeux</h3>
@@ -342,8 +287,7 @@ include "header.php";
             </div>
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/UML-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/uml.png"
-                         alt="UML project"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/uml.png" alt="UML project"/>
                 </a>
 
                 <h3>Entire conception of product</h3>
@@ -356,11 +300,10 @@ include "header.php";
             </div>
         </div>
 
-        <div class="row mt centered">
+        <div class="row centered">
             <div class="col-lg-4">
                 <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/graphs.png"
-                         alt="Graphs project"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/graphs.png" alt="Graphs project"/>
                 </a>
 
                 <h3>Scala code for Dijkstra & Warhall algorithms</h3>
@@ -375,8 +318,7 @@ include "header.php";
 
             <div class="col-lg-4">
                 <a class="zoom green" href="https://github.com/ColinLeverger/VaultChat.git" rel="follow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/vaultchat.png"
-                         alt="Vault Chat"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/vaultchat.png" alt="Vault Chat"/>
                 </a>
 
                 <h3>VaultChat</h3>

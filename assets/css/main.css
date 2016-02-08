@@ -49,7 +49,7 @@ li.comp:before {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .centered {
@@ -209,11 +209,11 @@ bt {
     font-size: 12px;
 }
 
-.icons{
+.icons {
     transition: 500ms;
 }
 
-.icons:hover{
+.icons:hover {
     opacity: 0.5;
     transition: 500ms;
 }
