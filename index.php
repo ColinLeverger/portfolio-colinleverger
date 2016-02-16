@@ -267,7 +267,7 @@ include "header.php";
                     <b>Java</b>, use of MVC pattern.</p>
 
                 <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
-
+l
                 <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
             <div class="col-lg-4">
