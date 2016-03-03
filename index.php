@@ -271,13 +271,15 @@ include "header.php";
                 <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
             <div class="col-lg-4">
-                <a class="zoom green" href="assets/projects/srv_php_voeux/index.php" rel="nofollow" target="new">
+                <a class="zoom green" href="http://srv-php-voeux.colinleverger.fr" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/srv.png" alt="Serveur de voeux"/>
                 </a>
 
                 <h3>Website for ENSSAT: Serveur de voeux</h3>
 
                 <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
+
+                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/srv-php-voeux">here!</a></p>
 
                 <p>IDs to play:</p>
                 <ul>
