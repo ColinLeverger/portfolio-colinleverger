@@ -47,7 +47,7 @@ include "header.php";
         <div class="row">
             <div class="col-lg-4 mt">
                 <a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
-                    <img src="./assets/img/colinleverger.jpg" class="circular" alt="Colin LEVERGER">
+                    <img src="./assets/img/colinleverger.png" class="circular" alt="Colin LEVERGER">
                 </a>
             </div>
             <div class="col-lg-8">
