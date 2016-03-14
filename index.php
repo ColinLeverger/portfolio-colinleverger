@@ -354,7 +354,7 @@ include "header.php";
             </div>
 
             <div class="col-lg-4">
-                <h2>test</h2>
+
             </div>
 
             <div class="col-lg-4">
