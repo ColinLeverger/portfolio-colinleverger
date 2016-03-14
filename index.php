@@ -7,7 +7,7 @@
     <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
     <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer"/>
-    <meta property="og:image" content="http://colinleverger.fr/assets/img/colinleverger.jpg" />
+    <meta property="og:image" content="http://colinleverger.fr/assets/img/colinleverger.jpg"/>
     <link rel="shortcut icon" href="favicon.ico">
 
     <title>Colin LEVERGER</title>
@@ -48,7 +48,8 @@ include "header.php";
         <div class="row">
             <div class="col-lg-4 mt">
                 <a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
-                    <img src="http://www.gravatar.com/avatar/3f6f972b00b89d7f4597974d448a1161?s=2048" class="circular" alt="Colin LEVERGER">
+                    <img src="http://www.gravatar.com/avatar/3f6f972b00b89d7f4597974d448a1161?s=2048" class="circular"
+                         alt="Colin LEVERGER">
                 </a>
             </div>
             <div class="col-lg-8">
@@ -344,19 +345,19 @@ include "header.php";
 
                 <p>Presentation & tutorial about JMeter: the basis.</p>
 
-                <p>Use of <b>reveal.js</b> / <b>HTML</b>.</p>                
+                <p>Use of <b>reveal.js</b> / <b>HTML</b>.</p>
             </div>
         </div>
         <div class="row centered">
             <div class="col-lg-4">
-               <h2>And more to come . . .</h2>
+                <h2>And more to come . . .</h2>
             </div>
 
-            <div class="col-lg-4">     
-
+            <div class="col-lg-4">
+                <h2>test</h2>
             </div>
 
-            <div class="col-lg-4">   
+            <div class="col-lg-4">
 
             </div>
         </div>
