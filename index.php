@@ -268,7 +268,7 @@ include "header.php";
                 <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in
                     <b>Java</b>, use of MVC pattern.</p>
 
-                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/boulder-dash">here!</a></p>
+                <p>URL of GitHub project: <a href="https://github.com/valeriansaliou/boulder-dash">here!</a></p>
 
                 <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
