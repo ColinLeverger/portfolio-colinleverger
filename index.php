@@ -241,8 +241,8 @@ include "header.php";
             <img class="img-responsive" src="./assets/img/wf.png" alt="Colin's Workflow"/>
         </div>
         <div class="row centered pt">
-            <a data-toggle="modal" data-target="#myModal" href="#">Click here for some details on my DevOps
-                abilities</a>
+            <a data-toggle="modal" data-target="#myModal" href="#">Curious about my DevOps
+                abilities?</a>
         </div>
     </div>
 </div>
