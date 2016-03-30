@@ -8,10 +8,10 @@
 
                 <p>
                     <a href="mailto:colinleverger@gmail.com">
-                        <img class="icons" width="40" height="40" src="./assets/img/mail-logo.png" alt="Mail">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
                     </a>
                     <a href="tel:0033633504722">
-                        <img class="icons" width="40" height="40" src="./assets/img/phone-logo.png" alt="Phone">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/phone-logo.png" alt="Phone">
                     </a>
                 </p>
 
@@ -23,19 +23,19 @@
 
                 <p>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="./assets/img/linkedin-logo.png" alt="LinkedIn">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png" alt="LinkedIn">
                     </a>
                     <a href="https://plus.google.com/+ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="./assets/img/googleplus-logo.png" alt="Google+">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/googleplus-logo.png" alt="Google+">
                     </a>
                     <a href="https://youtube.com/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="./assets/img/youtube-logo.png" alt="YouTube">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/youtube-logo.png" alt="YouTube">
                     </a>
                     <a href="skype:colin.leverger5" target="_blank">
-                        <img class="icons" width="40" height="40" src="./assets/img/skype-logo.png" alt="Skype">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/skype-logo.png" alt="Skype">
                     </a>
                     <a href="https://github.com/ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="./assets/img/github-logo.png" alt="Github">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
                     </a>
                 </p>
             </div>

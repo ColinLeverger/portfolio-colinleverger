@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web-portfolio & online CV of Colin LEVERGER">
     <meta name="author" content="Colin LEVERGER">
-    <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer"/>
+    <meta name="keywords" content="Colin LEVERGER, CV, web-portfolio, DevOps, Lannion, Rennes, Engineer, Scala"/>
     <meta property="og:image" content="http://colinleverger.fr/assets/img/colinleverger.jpg"/>
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -139,7 +139,7 @@ include "header.php";
                 <p><b>Functional programming</b>: Scala, 1 year and an half experience, daily use at work and for school
                     projects.</p>
 
-                <p><b>Git</b>: Daily use.</p>
+                <p><b>Git</b>: Daily use, advanced workflow (branch, checkout, tags, ...).</p>
 
                 <p><b>Object-oriented programming</b>: Java, 3 years experience, several projects.</p>
 
@@ -180,7 +180,7 @@ include "header.php";
                     </div>
                 </div>
 
-                Jenkins
+                Jenkins / Ansible
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="75">
                         <span class="sr-only">75% Complete</span>
@@ -198,7 +198,7 @@ include "header.php";
     </div>
 </div>
 <div id="white">
-    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal fade" id="devopsModal" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -241,12 +241,34 @@ include "header.php";
             <img class="img-responsive" src="./assets/img/wf.png" alt="Colin's Workflow"/>
         </div>
         <div class="row centered pt">
-            <a data-toggle="modal" data-target="#myModal" href="#">Curious about my DevOps
+            <a data-toggle="modal" data-target="#devopsModal" href="#">Curious about my DevOps
                 abilities?</a>
         </div>
     </div>
 </div>
 <div id="grey">
+    <div class="modal fade" id="swimmingModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title centered">Details about the Swimming Record Management app</h3>
+                </div>
+                <div class="modal-body">
+                    <p>The administrator of the website will be able to manage users, and to update the data on the
+                        website using an XML file containing all the information about the competition. This file will
+                        be uploaded, parsed & stored in the DB, and all the data will be displayed with charts, pies &
+                        tables.</p>
+
+                    <p>This is a totally volunteer & unpaid work. I wanted to improve my skills in Scala & PLay
+                        Framework, and it was definitely a good opportunity. Plus, it is OpenSource! :)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container pt" id="work">
         <div class="row ">
             <div class="col-lg-6 col-lg-offset-3 centered">
@@ -350,11 +372,24 @@ include "header.php";
         </div>
         <div class="row centered">
             <div class="col-lg-4">
-                <h2>And more to come . . .</h2>
+                <a class="zoom green" href="http://dev.swimming.colinleverger.fr/" rel="follow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/swimming-pool.png" alt="Swimming Pool"/>
+                </a>
+
+                <h3>Record management for Swimming Pool</h3>
+
+                <p>Play web application to manage records on a French Swimming Pool. Work in progress.</p>
+
+                <p><a data-toggle="modal" data-target="#swimmingModal" href="#">Want some details?</a></p>
+
+                <p>Use of <b>Scala Play Framework</b>, <b>Slick</b>, <b>Bootstrap</b>, advanced <b>Git</b> workflow,
+                    <b>Jenkins</b>, <b>Docker</b>, <b>PostgreSQL</b>. Developed following a <b>TDD</b> process.</p>
+
+                <p>URL of GitHub project: <a href="https://github.com/hiveship/swimming-record-manager">here!</a></p>
             </div>
 
             <div class="col-lg-4">
-
+                <h2>And more to come . . .</h2>
             </div>
 
             <div class="col-lg-4">
