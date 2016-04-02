@@ -255,12 +255,34 @@ include "header.php";
                     <h3 class="modal-title centered">Details about the Swimming Record Management app</h3>
                 </div>
                 <div class="modal-body">
+                    <p>I've started this project from scratch and created all the following workflow.</p>
+
+                    <b>DEVOPS & CI:</b>
+                    <ul>
+                        <li>Jenkins</li>
+                        <li>Docker</li>
+                    </ul>
+                    <b>CODE & DEV:</b>
+                    <ul>
+                        <li>sbt</li>
+                        <li>DepInjection</li>
+                        <li>PatternMatching</li>
+                        <li>Immutability</li>
+                        <li>TDD</li>
+                        <li>Git (two branches: dev/master)</li>
+                    </ul>
+
+                    <p>Now, at every push on GitHub, the project is deployed on the web (if the tests are successful, of
+                        course!) and everything is packed and ready automatically. The app is made to allow a user to
+                        visualise and modify data from swimming competitions. What is the rank of this swimmer? What was
+                        his previous record? The users can log in and watch data.</p>
+
                     <p>The administrator of the website will be able to manage users, and to update the data on the
                         website using an XML file containing all the information about the competition. This file will
                         be uploaded, parsed & stored in the DB, and all the data will be displayed with charts, pies &
                         tables.</p>
 
-                    <p>This is a totally volunteer & unpaid work. I wanted to improve my skills in Scala & PLay
+                    <p>This is a totally volunteer, unpaid work. I wanted to improve my skills in Scala & Play
                         Framework, and it was definitely a good opportunity. Plus, it is OpenSource! :)</p>
                 </div>
                 <div class="modal-footer">
