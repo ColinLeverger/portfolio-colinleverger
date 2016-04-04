@@ -394,7 +394,7 @@ include "header.php";
         </div>
         <div class="row centered">
             <div class="col-lg-4">
-                <a class="zoom green" href="http://dev.swimming.colinleverger.fr/" rel="follow" target="new">
+                <!--<a class="zoom green" href="http://dev.swimming.colinleverger.fr/" rel="follow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/swimming-pool.png" alt="Swimming Pool"/>
                 </a>
 
@@ -407,7 +407,7 @@ include "header.php";
                 <p>Use of <b>Scala Play Framework</b>, <b>Slick</b>, <b>Bootstrap</b>, advanced <b>Git</b> workflow,
                     <b>Jenkins</b>, <b>Docker</b>, <b>PostgreSQL</b>. Developed following a <b>TDD</b> process.</p>
 
-                <p>URL of GitHub project: <a href="https://github.com/hiveship/swimming-record-manager">here!</a></p>
+                <p>URL of GitHub project: <a href="https://github.com/hiveship/swimming-record-manager">here!</a></p>-->
             </div>
 
             <div class="col-lg-4">
