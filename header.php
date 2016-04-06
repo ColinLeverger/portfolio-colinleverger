@@ -10,7 +10,7 @@
                     <li><a href="#skills-bar">Skills</a></li>
                     <li><a href="#devops">DevOps</a></li>
                     <li><a href="#work">Work</a></li>
-                    <li><a href="http://colinleverger.github.io">Blog</a></li>
+                    <!--<li><a href="http://colinleverger.github.io">Blog</a></li>-->
                     <li><a href="#footer">Contact</a></li>
                     <li><a href="assets/pdf/Colin-LEVERGER.pdf">CV</a></li>
                 </ul>
