@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <title>Colin LEVERGER</title>
-    
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -310,59 +310,82 @@ include "header.php";
 
                 <h3>Boulder Dash</h3>
 
+                <p>
+                    <a href="https://github.com/valeriansaliou/boulder-dash">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="./assets/projects/BOULDER.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Github">
+                    </a>
+                </p>
+
                 <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done in
                     <b>Java</b>, use of MVC pattern.</p>
 
-                <p>URL of GitHub project: <a href="https://github.com/valeriansaliou/boulder-dash">here!</a></p>
-
-                <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
             <div class="col-lg-4">
                 <a class="zoom green" href="http://srv-php-voeux.colinleverger.fr" rel="nofollow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/srv.png" alt="Serveur de voeux"/>
                 </a>
 
-                <h3>Website for ENSSAT: Serveur de voeux</h3>
+                <h3>Wishes server</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/srv-php-voeux">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="./assets/projects/WISHES.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                    <a href="http://srv-php-voeux.colinleverger.fr">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
+                    </a>
+                </p>
 
                 <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
 
-                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/srv-php-voeux">here!</a></p>
-
-                <p>IDs to play:</p>
-                <ul>
-                    <li class="comp">USERNAME: <em>bvozel</em></li>
-                    <li class="comp">PASSWORD: <em>servicesENSSAT</em></li>
-                </ul>
+                <p>IDs to play: USERNAME: <em>bvozel</em>, PASSWORD: <em>servicesENSSAT</em></p>
             </div>
             <div class="col-lg-4">
-                <a class="zoom green" href="assets/projects/UML-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
+                <a class="zoom green" href="assets/projects/UML-COLIN-LEVERGER.pdf" rel="follow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/uml.png" alt="UML project"/>
                 </a>
 
                 <h3>Entire conception of product</h3>
 
+                <p>
+                    <a href="assets/projects/UML-COLIN-LEVERGER.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
+
                 <p>Use of <b>UML</b> and <b>UP</b> methodologies to design a fictive application.</p>
 
                 <p>The product is an app which will rationalize the means of transports in a city.</p>
 
-                <p>Click on the image to read the report in response to a Call for Proposals. Written in French.</p>
             </div>
         </div>
 
         <div class="row centered">
             <div class="col-lg-4">
-                <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="nofollow" target="new">
+                <a class="zoom green" href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf" rel="follow" target="new">
                     <img class="img-responsive" src="./assets/img/portfolio/graphs.png" alt="Graphs project"/>
                 </a>
 
-                <h3>Scala code for Dijkstra & Warshall algorithms</h3>
+                <h3>Warshall algorithms</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/graphs-scala">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="assets/projects/GRAPHS-COLIN-LEVERGER.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
 
                 <p>Use of <b>Scala</b>, <b>SBT</b> and <b>Git</b>. Tests provided in "src/test" (eh, we are not
                     uncivilized here, just trying to do a little DevOps...)</p>
 
-                <p>URL of GitLab project: <a href="https://gitlab.com/ColinLeverger/graphs-scala.git">here!</a></p>
-
-                <p>Click on the image to read the report I wrote to explain my work. Written in French.</p>
             </div>
 
             <div class="col-lg-4">
@@ -372,45 +395,151 @@ include "header.php";
 
                 <h3>VaultChat</h3>
 
+                <p>
+                    <a href="https://github.com/ColinLeverger/VaultChat.git">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                </p>
+
                 <p>School project; subject: decentralized and distributed system. Communication
                     between fictive atomics shelters. Use of critical section and mutex to make the communications
-                    secure
-                    and parallel.</p>
+                    secure and parallel.</p>
 
                 <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
-
-                <p>URL of GitHub project: <a href="https://github.com/ColinLeverger/VaultChat.git">here!</a></p>
             </div>
             <div class="col-lg-4">
                 <a class="zoom green" href="http://jmeter-tutorial.colinleverger.fr" rel="follow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/jmeter.png" alt="Vault Chat"/>
+                    <img class="img-responsive" src="./assets/img/portfolio/jmeter.png" alt="JMeter"/>
                 </a>
 
                 <h3>JMeter Tutorial</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/jmeter-tutorial">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="http://jmeter-tutorial.colinleverger.fr">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
+                    </a>
+                </p>
 
                 <p>Presentation & tutorial about JMeter: the basis.</p>
 
                 <p>Use of <b>reveal.js</b> / <b>HTML</b>.</p>
             </div>
         </div>
+
         <div class="row centered">
             <div class="col-lg-4">
+                <a class="zoom green" href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf" rel="follow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/eigenfaces.png" alt="Eigenfaces project"/>
+                </a>
 
+                <h3>Eigenfaces with Matlab</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/eigenfaces-matlab">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
+
+                <p>Use of <b>Matlab</b> to develop face recognition with the Eigenfaces.</p>
             </div>
 
             <div class="col-lg-4">
-                <h2>And more to come . . .</h2>
+                <a class="zoom green" href="assets/projects/CANNY-COLIN-LEVERGER.pdf" rel="follow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/lena.png" alt="Lena"/>
+                </a>
+
+                <h3>Canny edge detector</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/canny-algorithm">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="assets/projects/CANNY-COLIN-LEVERGER.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
+
+                <p>Use of <b>Scilab</b> to do a little bit of image processing, with the Canny's algorithm.</p>
+            </div>
+            <div class="col-lg-4">
+                <a class="zoom green" href="assets/projects/ML.pdf" rel="follow" target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/ml-python.png" alt="ML"/>
+                </a>
+
+                <h3>Machine learning algorithms</h3>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/machine-learning-python">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="assets/projects/ML.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
+
+                <p>Use of <b>Python</b> & <b>Scikit</b> lib to experiment with machine learning algorithms, such as
+                    Linear regression, Trees, Random Forests... Work in pairs with Anais GALISSON.</p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="row centered">
+                <div class="col-lg-4">
+                    <a class="zoom green" href="http://colinleverger.github.io/solar-system-webgl/" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/solar-system.png"
+                             alt="Solar system"/>
+                    </a>
 
+                    <h3>Solar system simulation</h3>
+
+                    <p>
+                        <a href="https://github.com/ColinLeverger/solar-system-webgl">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                                 alt="Github">
+                        </a>
+                        <a href="assets/projects/SOLAR-SYSTEM-COLIN-LEVERGER.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                        <a href="http://colinleverger.github.io/solar-system-webgl/">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
+                        </a>
+                    </p>
+
+                    <p>Use of <b>Javascript</b>, <b>HTML/CSS</b> and <b>OpenGL</b> to develop a solar system simulation.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <a class="zoom green" href="assets/projects/ERGO-COLIN-LEVERGER.pdf" rel="follow" target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/ergo.png" alt="Ergo"/>
+                    </a>
+
+                    <h3>Ergonomy & Website design</h3>
+
+                    <p>
+                        <a href="assets/projects/ERGO-COLIN-LEVERGER.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                    </p>
+
+                    <p>Use of <b>Sketch</b> to design a website for an association.</p>
+                    <p>In this project, the goal was more to think about choices of implementation & designs than coding
+                        the website itself.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>And more to come . . .</h2>
+                </div>
             </div>
         </div>
+        <!-- /container -->
     </div>
-    <!-- /container -->
-</div>
-<?php
-include "footer.php";
-?>
+    <?php
+    include "footer.php";
+    ?>
 </body>
 </html>
