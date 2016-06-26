@@ -11,14 +11,13 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <title>Colin LEVERGER</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
     <script src="assets/js/bootstrap-progressbar.js"></script>
@@ -47,19 +46,41 @@ include "header.php";
     <div class="container centered">
         <div class="row">
             <div class="col-lg-4 mt">
-                <a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
-                    <img src="http://www.gravatar.com/avatar/3f6f972b00b89d7f4597974d448a1161?s=2048" class="circular"
-                         alt="Colin LEVERGER">
-                </a>
+                <div><a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
+                        <img src="http://www.gravatar.com/avatar/3f6f972b00b89d7f4597974d448a1161?s=2048"
+                             class="circular"
+                             alt="Colin LEVERGER">
+                    </a>
+                </div>
+                <hr>
+                <div>
+                    <a href="https://github.com/ColinLeverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="https://linkedin.com/in/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png"
+                             alt="LinkedIn">
+                    </a>
+                    <a href="mailto:colinleverger@gmail.com">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
+                    </a>
+                    <a href="tel:0033633504722">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/phone-logo.png" alt="Phone">
+                    </a>
+                </div>
             </div>
             <div class="col-lg-8">
                 <p>I am a young developer & an engineering student, and you are welcome to my web-portfolio.</p>
 
-                <p>I've always been interested in new technologies & computing science, that's why I'm currently working
-                    as an apprentice engineer at the Orange company.
-                    I have the opportunity to work with <b>DevOps tools</b> such as <b>Jenkins</b>, <b>Scala</b>,
-                    <b>Scala SBT</b>, <b>Docker</b>, and also to learn how the application performance management works
-                    in the Orange's Application Performance Experts team.</p>
+                <p>I'm currently working as an apprentice <b>DevOps engineer</b> & <b>Scala developer</b> at the Orange
+                    company. I have the opportunity to work with <b>DevOps tools</b> such as <b>Jenkins</b>,
+                    <b>Travis</b>, <b>Scala SBT</b>, <b>Docker</b>, <b>Ansible</b>, and also to learn how the
+                    application performance management works in the Orange's Application Performance Experts team.</p>
+
+                <p>I am highly motivated by the <b>Big Data</b> in general, and about technologies such as <b>Machine
+                        learning</b>, etc. I am constantly learning (by myself, or at school) about these subjects, and
+                    I definitely want to go further and study in that field after being graduated at ENSSAT. Let me know
+                    if you are interested in my profile for a potential internship in this domain!</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
                     projects.</p>
@@ -70,7 +91,8 @@ include "header.php";
 <div id="white">
     <div class="container pt" id="about">
         <div class="row centered">
-            <div class="col-lg-3">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
                 <span class="glyphicon glyphicon-user"></span>
 
                 <h3>About me:</h3>
@@ -81,14 +103,19 @@ include "header.php";
                 <p><a href="https://goo.gl/maps/6ZnmBmoNSkp" target="new">Rennes</a> city - France</p>
 
                 <p>Guitarist / Singer / Music player & lover</p>
+
+                <p>Play badminton twice a week, occasional swimmer, love long hikes and nature activities</p>
             </div>
-            <div class="col-lg-3">
-                <span class="glyphicon glyphicon-book"></span>
+            <div class="col-lg-2">
+                <span class="glyphicon glyphicon-education"></span>
 
                 <h3>Studies:</h3>
                 <hr>
 
-                <p>Currently: student at the engineering school <a href="http://www.enssat.fr/" target="new">ENSSAT</a>
+                <p>Currently: ERASMUS in <a href="http://www.ruc.dk/en/">Roskilde University</a>, Denmark.</p>
+
+                <p>2014 - 2017: student at the engineering school <a href="http://www.enssat.fr/"
+                                                                     target="new">ENSSAT</a>
                     Lannion - Computing Science</p>
 
                 <p>2014: D.U.T
@@ -98,23 +125,39 @@ include "header.php";
                     </a>,
                     Rennes (Technical Degree in Electronics & Computing Sciences) </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
+                <span class="glyphicon glyphicon-book"></span>
+
+                <h3>MOOCs:</h3>
+                <hr>
+
+                <p>Coursera platform: following the <a
+                        href="https://www.coursera.org/specializations/scala">Scala specialisation</a>, started (but not
+                    finished yet) the <a href="https://www.coursera.org/learn/recommender-systems/home/welcome">Recommender
+                        systems</a> course.
+                </p>
+
+                <p>FUN MOOC: plan to follow <a
+                        href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S04/session04/about">Fondamentaux pour
+                        le Big Data</a> in end of August 2016.</p>
+
+            </div>
+            <div class="col-lg-2">
                 <span class="glyphicon glyphicon-plane"></span>
 
                 <h3>Travels:</h3>
                 <hr>
 
-                <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
-                    an
-                    internship</p>
+                <p>2016 : Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>)</p>
 
                 <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
 
-                <p>2012 (<em>10 days</em>): England, Reading</p>
+                <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
+                    an internship</p>
 
                 <p>& many others. . .</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <span class="glyphicon glyphicon-globe"></span>
 
                 <h3>Languages:</h3>
@@ -126,6 +169,7 @@ include "header.php";
 
                 <p>Spanish: basic knowledge</p>
             </div>
+            <div class="col-lg-1"></div>
         </div>
     </div>
 </div>
@@ -136,8 +180,8 @@ include "header.php";
                 <h3 class="centered">Development skills</h3>
                 <hr>
 
-                <p><b>Functional programming</b>: Scala, 1 year and an half experience, daily use at work and for school
-                    projects.</p>
+                <p><b>Functional programming</b>: Scala, 2 years experience, daily use. Currently following the <a
+                        href="https://www.coursera.org/specializations/scala">Scala specialisation</a> on Coursera.</p>
 
                 <p><b>Git</b>: Daily use, advanced workflow (branch, checkout, tags, ...).</p>
 
@@ -152,14 +196,14 @@ include "header.php";
             <div class="col-lg-6">
                 <h3 class="centered">Skills "progress bar" (fancy, eh?):</h3>
                 <hr>
-                Unix / System
+                Unix / Bash
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="90">
                         <span class="sr-only">90% Complete</span>
                     </div>
                 </div>
 
-                Scala / Java
+                Scala
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="85">
                         <span class="sr-only">85% Complete</span>
@@ -209,8 +253,9 @@ include "header.php";
                     <p>I have a strong knowledge of continuous delivery. I do not like to
                         <b>repeat painful things</b>, especially when it concerns the <b>test & delivery</b> of a
                         software I wrote. I like to be a "lazy" (but smart though...) developer.
-                        <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a> and
-                        <a href="http://www.scala-sbt.org/">SBT</a> are working for me to deliver my work.</p>
+                        <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>,
+                        <a href="http://www.scala-sbt.org/">SBT</a> and <a href="http://ansible.com">Ansible</a> are
+                        working for me to deliver my work.</p>
 
                     <p>I make strong efforts to <b>test my tools and software</b>: without tests, the solutions are
                         not maintainable, plus it assures a non-regression of the code: and that is everything we want,
@@ -247,50 +292,6 @@ include "header.php";
     </div>
 </div>
 <div id="grey">
-    <div class="modal fade" id="swimmingModal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title centered">Details about the Swimming Record Management app</h3>
-                </div>
-                <div class="modal-body">
-                    <p>I've started this project from scratch and created all the following workflow.</p>
-
-                    <b>DEVOPS & CI:</b>
-                    <ul>
-                        <li>Jenkins</li>
-                        <li>Docker</li>
-                    </ul>
-                    <b>CODE & DEV:</b>
-                    <ul>
-                        <li>sbt</li>
-                        <li>DepInjection</li>
-                        <li>PatternMatching</li>
-                        <li>Immutability</li>
-                        <li>TDD</li>
-                        <li>Git (two branches: dev/master)</li>
-                    </ul>
-
-                    <p>Now, at every push on GitHub, the project is deployed on the web (if the tests are successful, of
-                        course!) and everything is packed and ready automatically. The app is made to allow a user to
-                        visualise and modify data from swimming competitions. What is the rank of this swimmer? What was
-                        his previous record? The users can log in and watch data.</p>
-
-                    <p>The administrator of the website will be able to manage users, and to update the data on the
-                        website using an XML file containing all the information about the competition. This file will
-                        be uploaded, parsed & stored in the DB, and all the data will be displayed with charts, pies &
-                        tables.</p>
-
-                    <p>This is a totally volunteer, unpaid work. I wanted to improve my skills in Scala & Play
-                        Framework, and it was definitely a good opportunity. Plus, it is OpenSource! :)</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container pt" id="work">
         <div class="row ">
             <div class="col-lg-6 col-lg-offset-3 centered">
@@ -394,20 +395,7 @@ include "header.php";
         </div>
         <div class="row centered">
             <div class="col-lg-4">
-                <!--<a class="zoom green" href="http://dev.swimming.colinleverger.fr/" rel="follow" target="new">
-                    <img class="img-responsive" src="./assets/img/portfolio/swimming-pool.png" alt="Swimming Pool"/>
-                </a>
 
-                <h3>Record management for Swimming Pool</h3>
-
-                <p>Play web application to manage records on a French Swimming Pool. Work in progress.</p>
-
-                <p><a data-toggle="modal" data-target="#swimmingModal" href="#">Want some details?</a></p>
-
-                <p>Use of <b>Scala Play Framework</b>, <b>Slick</b>, <b>Bootstrap</b>, advanced <b>Git</b> workflow,
-                    <b>Jenkins</b>, <b>Docker</b>, <b>PostgreSQL</b>. Developed following a <b>TDD</b> process.</p>
-
-                <p>URL of GitHub project: <a href="https://github.com/hiveship/swimming-record-manager">here!</a></p>-->
             </div>
 
             <div class="col-lg-4">

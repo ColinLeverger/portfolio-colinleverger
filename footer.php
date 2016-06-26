@@ -23,10 +23,12 @@
 
                 <p>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png" alt="LinkedIn">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png"
+                             alt="LinkedIn">
                     </a>
                     <a href="https://plus.google.com/+ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/googleplus-logo.png" alt="Google+">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/googleplus-logo.png"
+                             alt="Google+">
                     </a>
                     <a href="https://youtube.com/colinleverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/youtube-logo.png" alt="YouTube">
@@ -42,7 +44,7 @@
             <!-- /col-lg-4 -->
 
             <div class="col-lg-4">
-                <h4>It was nice to see you. :)</h4>
+                <h4>It was nice to see you :)</h4>
                 <p>
                     <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
                         from France
@@ -57,7 +59,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <!-- Google analytics
 ================================================== -->
