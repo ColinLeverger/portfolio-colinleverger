@@ -19,7 +19,7 @@
                     <li><a href="#work" onclick="hideNav()">Work</a></li>
                     <!--<li><a href="http://colinleverger.github.io" onclick="hideNav()">Blog</a></li>-->
                     <li><a href="#footer" onclick="hideNav()">Contact</a></li>
-                    <li><a href="assets/pdf/Colin-LEVERGER.pdf">CV</a></li>
+                    <li><a href="assets/pdf/Colin-LEVERGER.pdf" onclick="hideNav()">CV</a></li>
                 </ul>
             </div>
         </div>
