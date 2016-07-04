@@ -168,5 +168,8 @@
 })(window.jQuery);
 
 function hideNav() {
-    $('#navbar').hide();
+    if($('.navbar-toggle').css('display') != 'none'){
+        $('.navbar-toggle').click();
+        console.log("ici")
+    }
 }
