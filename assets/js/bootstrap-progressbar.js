@@ -168,5 +168,5 @@
 })(window.jQuery);
 
 function hideNav() {
-    $('.navbar-toggle').hide();
+    $('#navbar').hide();
 }
