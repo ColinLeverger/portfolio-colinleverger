@@ -532,7 +532,48 @@ include "header.php";
                         the website itself.</p>
                 </div>
                 <div class="col-lg-4">
+                    <a class="zoom green" href="assets/projects/SWITCHUP-CHALLENGE-ZOM-ENSSAT.pdf" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/switchup.png" alt="Switchup"/>
+                    </a>
+
+                    <h3>Switchup challenge Cisco</h3>
+
+                    <p>
+                        <a href="assets/projects/SWITCHUP-CHALLENGE-ZOM-ENSSAT.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                    </p>
+
+                    <p>Cisco innovation challenge. Main goal: think about society/environment problems, and imagine a
+                        product or a service to solve this problem. In three words: change the world!</p>
+                    <p>Team of 6 persons from ENSSAT engineering school.</p>
+                </div>
+            </div>
+            <div class="row centered">
+                <div class="col-lg-4">
+                    <a class="zoom green" href="http://astep.management.enssat.fr" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/astep.png" alt="ASTEP"/>
+                    </a>
+
+                    <h3>Management at ENSSAT: ASTEP</h3>
+
+                    <p>
+                        <a href="http://astep.management.enssat.fr">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Website of ASTEP">
+                        </a>
+                    </p>
+
+                    <p>Management project at ENSSAT. I was teaching computing science to children at primary school. Group of
+                    ~25 children, from 8 to 10. We prepared our interventions during one year: exercises, pedagogy,...</p>
+                    <p>Use of <b>Scratch</b> to give basis of programming to children.</p>
+                </div>
+
+                <div class="col-lg-4">
                     <h2>And more to come . . .</h2>
+                </div>
+                <div class="col-lg-4">
                 </div>
             </div>
         </div>
