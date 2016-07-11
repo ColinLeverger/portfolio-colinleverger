@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-header">
-                <a class="navbar-brand" href="#top">Colin LEVERGER</a>
+                <a class="navbar-brand" href="#top" onclick="hideNav()">Colin LEVERGER</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-custom">
                 <ul class="nav navbar-nav navbar-right">
