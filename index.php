@@ -547,7 +547,7 @@ include "header.php";
 
                     <p>Cisco innovation challenge. Main goal: think about society/environment problems, and imagine a
                         product or a service to solve this problem. In three words: change the world!</p>
-                    <p>Team of 6 persons from ENSSAT engineering school.</p>
+                    <p>Team of 5 persons from ENSSAT engineering school.</p>
                 </div>
             </div>
             <div class="row centered">
