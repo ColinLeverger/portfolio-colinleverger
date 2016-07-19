@@ -4,9 +4,10 @@ $(document).ready(function () {
         itemSelector: '.item',
         isFitWidth: false,
         resizable: false,
-        layoutMode: 'fitRows',
-        filter: '*'
+        layoutMode: 'fitRows'
     });
+
+    $container.isotope({filter: '*'});
 
     // filter items on button click
     $('#filters').on('click', 'button', function () {
