@@ -9,7 +9,7 @@
     <div class="row  centered">
 
         <div id="filters" class="button-group">
-            <button class="btn btn-colin" id="default" autofocus="true" data-filter="*">Show all</button>
+            <button class="btn btn-colin" data-filter="*">Show all</button>
             <button class="btn btn-colin" data-filter=".web">Web</button>
             <button class="btn btn-colin" data-filter=".design">Design/Conception</button>
             <button class="btn btn-colin" data-filter=".ml">Machine Learning</button>
