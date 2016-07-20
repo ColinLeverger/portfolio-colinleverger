@@ -145,27 +145,6 @@ hr {
     background-color: #4CAF50;
 }
 
-.btn-colin {
-    background-color: #4CAF50;
-    color:white;
-    border-color: transparent;
-}
-
-.btn-colin:hover {
-    background-color: #4CAF50;
-    color:white;
-    border-color: transparent;
-    opacity: 0.7;
-    transition: 500ms;
-}
-
-.btn-colin:focus {
-    background-color: #34495e;
-    color:white;
-    outline: 0;
-    border-color: transparent;
-}
-
 /* Helpers */
 
 .mt {
@@ -350,3 +329,28 @@ bt {
 
 }
 
+.col-lg-4 {
+    margin-right: -1px;
+}
+
+/* Buttons */
+.btn-colin {
+    background-color: #4CAF50;
+    color:white;
+    border-color: transparent;
+}
+
+.btn-colin:hover {
+    background-color: #4CAF50;
+    color:white;
+    border-color: transparent;
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+.btn-colin:focus {
+    background-color: #34495e;
+    color:white;
+    outline: 0;
+    border-color: transparent;
+}
