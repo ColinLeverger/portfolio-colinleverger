@@ -322,11 +322,14 @@ bt {
     transition-property:         transform, opacity;
 }
 
+/* fluid 4 columns */
+.item { width: 25%; }
 
 /* responsive media queries */
 
 @media (max-width: 768px) {
-
+    /* fluid 1 columns */
+    .item { width: 100%; }
 }
 
 .col-lg-4 {
