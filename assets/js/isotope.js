@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on("load", function() {
     /* activate jquery isotope */
     var $container = $('#posts').isotope({
         itemSelector: '.item',
