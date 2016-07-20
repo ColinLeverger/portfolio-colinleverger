@@ -140,7 +140,7 @@ include "header.php";
                 </p>
 
                 <p>FUN MOOC: plan to follow <a
-                        href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S04/session04/about">Fondamentaux pour
+                        href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S05/session05/about">Fondamentaux pour
                         le Big Data</a> in end of August 2016.</p>
 
             </div>
