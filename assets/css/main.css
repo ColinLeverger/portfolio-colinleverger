@@ -298,13 +298,13 @@ bt {
 /* ISOTOPE CONF */
 
 .container-fluid.no-gutter {
-    padding: 50px;
+    padding: 30px;
 }
 .container-fluid.no-gutter .row [class*='col-']:not(:first-child),
 .container-fluid.no-gutter .row [class*='col-']:not(:last-child)
 {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .row {
