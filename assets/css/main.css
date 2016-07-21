@@ -218,6 +218,7 @@ bt {
 
 .icons {
     transition: 500ms;
+    margin-top: 20px;
 }
 
 .icons:hover {
