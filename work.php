@@ -311,6 +311,25 @@
                     <p>Use of <b>Scratch</b> to give basis of programming to children.</p>
                 </div>
             </div>
+            <div id="14" class="item other col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="assets/pdf/load_testing_fundamentals.pdf" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/perf.png" alt="Performance testing"/>
+                    </a>
+
+                    <p>
+                        <a href="assets/pdf/load_testing_fundamentals.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                    </p>
+
+                    <h3>Load testing fundamentals</h3>
+
+                    <p>Article concerning the Load testing fundamentals - state of the art.</p>
+                    <p>Information about processes, tools and methods used in load testing.</p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- /container -->
