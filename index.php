@@ -49,7 +49,7 @@ include "header.php";
         <div class="row">
             <div class="col-lg-4 mt">
                 <div><a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
-                        <img src="http://www.gravatar.com/avatar/3f6f972b00b89d7f4597974d448a1161?s=2048"
+                        <img src="./assets/img/colinleverger.jpeg"
                              class="circular"
                              alt="Colin LEVERGER">
                     </a>
