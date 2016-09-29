@@ -139,7 +139,7 @@ include "header.php";
                         systems</a> course.
                 </p>
 
-                <p>FUN MOOC: plan to follow <a
+                <p>FUN MOOC: followed <a
                         href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S05/session05/about">Fondamentaux pour
                         le Big Data</a> in end of August 2016.</p>
 
@@ -150,7 +150,8 @@ include "header.php";
                 <h3>Travels:</h3>
                 <hr>
 
-                <p>2016 : Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>)</p>
+                <p>2016 : Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (5
+                    months)</p>
 
                 <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
 
@@ -170,6 +171,8 @@ include "header.php";
                 <p>English: fluent & good technical skills (B2 level)</p>
 
                 <p>Spanish: basic knowledge</p>
+
+                <p>Danish: basic knowledge</p>
             </div>
             <div class="col-lg-1"></div>
         </div>
