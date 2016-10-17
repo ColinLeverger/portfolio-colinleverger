@@ -56,12 +56,15 @@ include "header.php";
                 </div>
                 <hr>
                 <div>
-                    <a href="https://github.com/ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
-                    </a>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png"
                              alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/ColinLeverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="https://www.kaggle.com/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
                     </a>
                     <a href="mailto:colinleverger@gmail.com">
                         <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
@@ -255,9 +258,9 @@ include "header.php";
                     <h3 class="modal-title centered">DevOps & Continuous delivery</h3>
                 </div>
                 <div class="modal-body">
-                    <p>I have a strong knowledge of continuous delivery. I do not like to
+                    <p>I have a good knowledge of continuous delivery. I do not like to
                         <b>repeat painful things</b>, especially when it concerns the <b>test & delivery</b> of a
-                        software I wrote. I like to be a "lazy" (but smart though...) developer.
+                        software I'm developing. I like to be a "lazy" (but smart though...) developer.
                         <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>,
                         <a href="http://www.scala-sbt.org/">SBT</a> and <a href="http://ansible.com">Ansible</a> are
                         working for me to deliver my work.</p>

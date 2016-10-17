@@ -15,6 +15,7 @@
             <button class="btn btn-colin" data-filter=".ml">Machine Learning</button>
             <button class="btn btn-colin" data-filter=".dev">Dev</button>
             <button class="btn btn-colin" data-filter=".other">Other</button>
+            <button class="btn btn-colin" data-filter=".personal">Personal</button>
         </div>
         <br/>
 
@@ -36,7 +37,7 @@
                         </a>
                     </p>
 
-                    <h3>Boulder Dash</h3>                    
+                    <h3>Boulder Dash</h3>
 
                     <p>Clone of <a href="https://fr.wikipedia.org/wiki/Boulder_Dash" target="new">Boulder Dash</a>, done
                         in
@@ -133,7 +134,31 @@
                     <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
                 </div>
             </div>
-            <div id="6" class="item web dev col-lg-4">
+            <div id="6" class="item dev col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="assets/projects/BDD.pdf" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/travel.png" alt="Travel"/>
+                    </a>
+
+                    <p>
+                        <a href="assets/projects/BDD.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                        <a href="assets/projects/BDD_CODE.sql">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
+                        </a>
+                    </p>
+
+                    <h3>Travel agency's database</h3>
+
+                    <p>School project; subject: creation of a fictive travel agency's database. Modeling of the
+                    database with entity/relationship models.</p>
+
+                    <p>Use of <b>MySQL</b> (stored procedures, triggers, views...).</p>
+                </div>
+            </div>
+            <div id="7" class="item web dev personal col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="http://jmeter-tutorial.colinleverger.fr" rel="follow" target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/jmeter.png" alt="JMeter"/>
@@ -156,7 +181,7 @@
                     <p>Use of <b>reveal.js</b> / <b>HTML</b>.</p>
                 </div>
             </div>
-            <div id="7" class="item dev ml col-lg-4">
+            <div id="8" class="item dev ml col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf" rel="follow"
                        target="new">
@@ -179,7 +204,7 @@
                     <p>Use of <b>Matlab</b> to develop face recognition with the Eigenfaces.</p>
                 </div>
             </div>
-            <div id="8" class="item dev col-lg-4">
+            <div id="9" class="item dev col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/CANNY-COLIN-LEVERGER.pdf" rel="follow" target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/lena.png" alt="Lena"/>
@@ -200,7 +225,7 @@
                     <p>Use of <b>Scilab</b> to do a little bit of image processing, with the Canny's algorithm.</p>
                 </div>
             </div>
-            <div id="9" class="item dev ml conception col-lg-4">
+            <div id="10" class="item dev ml conception col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/ML.pdf" rel="follow" target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/ml-python.png" alt="ML"/>
@@ -215,14 +240,14 @@
                             <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
                         </a>
                     </p>
-                    
+
                     <h3>Machine learning algorithms</h3>
 
                     <p>Use of <b>Python</b> & <b>Scikit</b> lib to experiment with machine learning algorithms, such as
                         Linear regression, Trees, Random Forests... Work in pairs with Anais GALISSON.</p>
                 </div>
             </div>
-            <div id="10" class="item dev web col-lg-4">
+            <div id="11" class="item dev web col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="http://colinleverger.github.io/solar-system-webgl/" rel="follow"
                        target="new">
@@ -249,7 +274,7 @@
                     </p>
                 </div>
             </div>
-            <div id="11" class="item design web col-lg-4">
+            <div id="12" class="item design web col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/ERGO-COLIN-LEVERGER.pdf" rel="follow" target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/ergo.png" alt="Ergo"/>
@@ -268,7 +293,7 @@
                         the website itself.</p>
                 </div>
             </div>
-            <div id="12" class="item design col-lg-4">
+            <div id="13" class="item design col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/SWITCHUP-CHALLENGE-ZOM-ENSSAT.pdf" rel="follow"
                        target="new">
@@ -288,7 +313,7 @@
                     <p>Team of 6 persons from ENSSAT engineering school.</p>
                 </div>
             </div>
-            <div id="13" class="item other col-lg-4">
+            <div id="14" class="item other col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="http://astep.management.enssat.fr" rel="follow"
                        target="new">
@@ -305,13 +330,12 @@
                     <h3>Management at ENSSAT: ASTEP</h3>
 
                     <p>Management project at ENSSAT. I was teaching computing science to children at primary school.
-                        Group of
-                        ~25 children, from 8 to 10. We prepared our interventions during one year: exercises,
+                        Group of ~25 children, from 8 to 10. We prepared our interventions during one year: exercises,
                         pedagogy,...</p>
                     <p>Use of <b>Scratch</b> to give basis of programming to children.</p>
                 </div>
             </div>
-            <div id="14" class="item other col-lg-4">
+            <div id="15" class="item other personal col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/pdf/load_testing_fundamentals.pdf" rel="follow"
                        target="new">
