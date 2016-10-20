@@ -7,14 +7,19 @@
                 <h4>Contact:</h4>
 
                 <p>
+                    Email:
                     <a href="mailto:colinleverger@gmail.com">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
-                    </a>
-                    <a href="tel:0033633504722">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/phone-logo.png" alt="Phone">
+                        <!--<img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">-->
+                        colinleverger@gmail.com
                     </a>
                 </p>
-
+                <p>
+                    Phone:
+                    <a href="tel:0033633504722">
+                        <!--<img class="icons" width="40" height="40" src="assets/img/logos/phone-logo.png" alt="Phone">-->
+                        +33 (0)633 504722
+                    </a>
+                </p>
             </div>
             <!-- /col-lg-4 -->
 
