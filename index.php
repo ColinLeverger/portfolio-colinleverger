@@ -77,7 +77,7 @@ include "header.php";
             <div class="col-lg-8">
                 <p>I am a young developer & an engineering student, and you are welcome to my web-portfolio.</p>
 
-                <p>I'm currently working as an apprentice <b>DevOps engineer</b> & <b>Scala developer</b> at the Orange
+                <p>I currently work as an apprentice <b>DevOps engineer</b> & <b>Scala developer</b> at the Orange
                     company. I have the opportunity to work with <b>DevOps tools</b> such as <b>Jenkins</b>,
                     <b>Travis</b>, <b>Scala SBT</b>, <b>Docker</b>, <b>Ansible</b>, and also to learn how the
                     application performance management works in the Orange's Application Performance Experts team.</p>
