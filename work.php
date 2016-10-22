@@ -329,10 +329,10 @@
 
                     <h3>Management at ENSSAT: ASTEP</h3>
 
-                    <p>Management project at ENSSAT. I was teaching computing science to children at primary school.
+                    <p>Management project at ENSSAT. I was teaching computing science at primary school.
                         Group of ~25 children, from 8 to 10. We prepared our interventions during one year: exercises,
                         pedagogy,...</p>
-                    <p>Use of <b>Scratch</b> to give basis of programming to children.</p>
+                    <p>Use of <b>Scratch</b> to give basis of programming.</p>
                 </div>
             </div>
             <div id="15" class="item other personal col-lg-4">
