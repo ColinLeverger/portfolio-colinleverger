@@ -239,7 +239,7 @@ include "header.php";
                     </div>
                 </div>
 
-                HTML/CSS + PHP
+                HTML / CSS + PHP
                 <div class="progress">
                     <div class="progress-bar progress-bar-theme" role="progressbar" data-transitiongoal="70">
                         <span class="sr-only">70% Complete</span>
