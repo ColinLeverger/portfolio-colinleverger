@@ -160,7 +160,7 @@
             </div>
             <div id="7" class="item web dev personal col-lg-4">
                 <div class="item-wrap">
-                    <a class="zoom green" href="http://jmeter-tutorial.colinleverger.fr" rel="follow" target="new">
+                    <a class="zoom green" href="http://colinleverger.github.io/jmeter-tutorial/#/" rel="follow" target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/jmeter.png" alt="JMeter"/>
                     </a>
 
@@ -169,7 +169,7 @@
                             <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
                                  alt="Github">
                         </a>
-                        <a href="http://jmeter-tutorial.colinleverger.fr">
+                        <a href="http://colinleverger.github.io/jmeter-tutorial/#/">
                             <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
                         </a>
                     </p>
