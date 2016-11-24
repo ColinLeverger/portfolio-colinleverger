@@ -23,7 +23,7 @@
             <div id="1" class="item dev col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" data-toggle="modal" href="./assets/projects/BOULDER.pdf">
-                        <img class="img-responsive" src="./assets/img/portfolio/boulder_dash.png"
+                        <img class="img-responsive" src="assets/img/portfolio/boulder-dash.png"
                              alt="Boulder Dash report"/>
                     </a>
 
@@ -62,7 +62,7 @@
                         </a>
                     </p>
 
-                    <h3>Wishes server</h3>
+                    <h3>Wishes Server</h3>
 
                     <p>Website coded using <b>CodeIgniter</b>, <b>PHP</b>, <b>Javascript / AJAX</b>.</p>
 
@@ -82,7 +82,7 @@
                         </a>
                     </p>
 
-                    <h3>Entire conception of product</h3>
+                    <h3>Entire Conception of Product</h3>
 
                     <p>Use of <b>UML</b> and <b>UP</b> methodologies to design a fictive application.</p>
 
@@ -105,36 +105,13 @@
                         </a>
                     </p>
 
-                    <h3>Warshall algorithms</h3>
+                    <h3>Warshall Algorithms</h3>
 
                     <p>Use of <b>Scala</b>, <b>SBT</b> and <b>Git</b>. Tests provided in "src/test" (eh, we are not
                         uncivilized here, just trying to do a little DevOps...)</p>
                 </div>
             </div>
             <div id="5" class="item dev col-lg-4">
-                <div class="item-wrap">
-                    <a class="zoom green" href="https://github.com/ColinLeverger/VaultChat.git" rel="follow"
-                       target="new">
-                        <img class="img-responsive" src="./assets/img/portfolio/vaultchat.png" alt="Vault Chat"/>
-                    </a>
-
-                    <p>
-                        <a href="https://github.com/ColinLeverger/VaultChat.git">
-                            <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
-                                 alt="Github">
-                        </a>
-                    </p>
-
-                    <h3>VaultChat</h3>
-
-                    <p>School project; subject: decentralized and distributed system. Communication
-                        between fictive atomics shelters. Use of critical section and mutex to make the communications
-                        secure and parallel.</p>
-
-                    <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
-                </div>
-            </div>
-            <div id="6" class="item dev col-lg-4">
                 <div class="item-wrap">
                     <a class="zoom green" href="assets/projects/BDD.pdf" rel="follow"
                        target="new">
@@ -150,12 +127,35 @@
                         </a>
                     </p>
 
-                    <h3>Travel agency's database</h3>
+                    <h3>Travel Agency's Database</h3>
 
                     <p>School project; subject: creation of a fictive travel agency's database. Modeling of the
-                    database with entity/relationship models.</p>
+                        database with entity/relationship models.</p>
 
                     <p>Use of <b>MySQL</b> (stored procedures, triggers, views...).</p>
+                </div>
+            </div>
+            <div id="6" class="item dev ml col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/eigenfaces.png"
+                             alt="Eigenfaces project"/>
+                    </a>
+
+                    <p>
+                        <a href="https://github.com/ColinLeverger/eigenfaces-matlab">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                                 alt="Github">
+                        </a>
+                        <a href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                    </p>
+
+                    <h3>Eigenfaces with Matlab</h3>
+
+                    <p>Use of <b>Matlab</b> to develop face recognition with the Eigenfaces.</p>
                 </div>
             </div>
             <div id="7" class="item web dev personal col-lg-4">
@@ -181,27 +181,28 @@
                     <p>Use of <b>reveal.js</b> / <b>HTML</b>.</p>
                 </div>
             </div>
-            <div id="8" class="item dev ml col-lg-4">
+
+            <div id="8" class="item dev col-lg-4">
                 <div class="item-wrap">
-                    <a class="zoom green" href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf" rel="follow"
+                    <a class="zoom green" href="https://github.com/ColinLeverger/VaultChat.git" rel="follow"
                        target="new">
-                        <img class="img-responsive" src="./assets/img/portfolio/eigenfaces.png"
-                             alt="Eigenfaces project"/>
+                        <img class="img-responsive" src="./assets/img/portfolio/vaultchat.png" alt="Vault Chat"/>
                     </a>
 
                     <p>
-                        <a href="https://github.com/ColinLeverger/eigenfaces-matlab">
+                        <a href="https://github.com/ColinLeverger/VaultChat.git">
                             <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
                                  alt="Github">
                         </a>
-                        <a href="assets/projects/EIGENFACES-COLIN-LEVERGER.pdf">
-                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
-                        </a>
                     </p>
 
-                    <h3>Eigenfaces with Matlab</h3>
+                    <h3>VaultChat</h3>
 
-                    <p>Use of <b>Matlab</b> to develop face recognition with the Eigenfaces.</p>
+                    <p>School project; subject: decentralized and distributed system. Communication
+                        between fictive atomics shelters. Use of critical section and mutex to make the communications
+                        secure and parallel.</p>
+
+                    <p>Use of <b>Java</b> and <b>Java RMI</b>.</p>
                 </div>
             </div>
             <div id="9" class="item dev col-lg-4">
@@ -220,7 +221,7 @@
                         </a>
                     </p>
 
-                    <h3>Canny edge detector</h3>
+                    <h3>Canny Edge Detector</h3>
 
                     <p>Use of <b>Scilab</b> to do a little bit of image processing, with the Canny's algorithm.</p>
                 </div>
@@ -268,7 +269,7 @@
                         </a>
                     </p>
 
-                    <h3>Solar system simulation</h3>
+                    <h3>Solar System Simulation</h3>
 
                     <p>Use of <b>Javascript</b>, <b>HTML/CSS</b> and <b>OpenGL</b> to develop a solar system simulation.
                     </p>
@@ -286,7 +287,7 @@
                         </a>
                     </p>
 
-                    <h3>Ergonomy & Website design</h3>
+                    <h3>Ergonomy & Website Design</h3>
 
                     <p>Use of <b>Sketch</b> to design a website for an association.</p>
                     <p>In this project, the goal was more to think about choices of implementation & designs than coding
@@ -306,7 +307,7 @@
                         </a>
                     </p>
 
-                    <h3>Switchup challenge Cisco</h3>
+                    <h3>Switchup Challenge Cisco</h3>
 
                     <p>Cisco innovation challenge. Main goal: think about society/environment problems, and imagine a
                         product or a service to solve this problem. In three words: change the world!</p>
@@ -337,21 +338,50 @@
             </div>
             <div id="15" class="item other personal col-lg-4">
                 <div class="item-wrap">
-                    <a class="zoom green" href="assets/pdf/load_testing_fundamentals.pdf" rel="follow"
+                    <a class="zoom green" href="assets/projects/load_testing_fundamentals.pdf" rel="follow"
                        target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/perf.png" alt="Performance testing"/>
                     </a>
 
                     <p>
-                        <a href="assets/pdf/load_testing_fundamentals.pdf">
+                        <a href="assets/projects/load_testing_fundamentals.pdf">
                             <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
                         </a>
                     </p>
 
-                    <h3>Load testing fundamentals</h3>
+                    <h3>Load Testing Fundamentals</h3>
 
                     <p>Article concerning the Load testing fundamentals - state of the art.</p>
                     <p>Information about processes, tools and methods used in load testing.</p>
+                </div>
+            </div>
+            <div id="16" class="item dev ml col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="https://colinleverger.github.io/speed-dating-experiment-r/" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/speed-dating.png"
+                             alt="Speed Dating"/>
+                    </a>
+
+                    <p>
+                        <a href="https://github.com/ColinLeverger/speed-dating-experiment-r">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                                 alt="Github">
+                        </a>
+                        <a href="assets/projects/BIBA-COLIN-LEVERGER.pdf">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                        </a>
+                        <a href="https://colinleverger.github.io/speed-dating-experiment-r/">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/link.png" alt="Link">
+                        </a>
+                        <a href="https://www.kaggle.com/colinleverger/d/annavictoria/speed-dating-experiment/exploring-the-speed-dating-dataset/">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Link">
+                        </a>
+                    </p>
+
+                    <h3>Speed Dating Experiment</h3>
+
+                    <p>Use of <b>R</b>, <b>Neo4j</b> and <b>Gephi</b> to analyse a Dataset concerning some Speed Dating events.</p>
                 </div>
             </div>
         </div>
