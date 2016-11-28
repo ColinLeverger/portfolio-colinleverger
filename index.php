@@ -261,7 +261,7 @@ include "header.php";
                     <p>I have a good knowledge of continuous delivery. I do not like to
                         <b>repeat painful things</b>, especially when it concerns the <b>test & delivery</b> of a
                         software I'm developing. I like to be a "lazy" (but smart though...) developer.
-                        <a href="www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>,
+                        <a href="https://www.docker.com">Docker</a>, <a href="https://jenkins-ci.org/">Jenkins</a>,
                         <a href="http://www.scala-sbt.org/">SBT</a> and <a href="http://ansible.com">Ansible</a> are
                         working for me to deliver my work.</p>
 
