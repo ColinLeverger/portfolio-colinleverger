@@ -160,7 +160,8 @@
             </div>
             <div id="7" class="item web dev personal col-lg-4">
                 <div class="item-wrap">
-                    <a class="zoom green" href="http://colinleverger.github.io/jmeter-tutorial/#/" rel="follow" target="new">
+                    <a class="zoom green" href="http://colinleverger.github.io/jmeter-tutorial/#/" rel="follow"
+                       target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/jmeter.png" alt="JMeter"/>
                     </a>
 
@@ -381,7 +382,29 @@
 
                     <h3>Speed Dating Experiment</h3>
 
-                    <p>Use of <b>R</b>, <b>Neo4j</b> and <b>Gephi</b> to analyse a Dataset concerning some Speed Dating events.</p>
+                    <p>Use of <b>R</b>, <b>Neo4j</b> and <b>Gephi</b> to analyse a Dataset concerning some Speed Dating
+                        events.</p>
+                </div>
+            </div>
+            <div id="17" class="item dev personal col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="https://github.com/ColinLeverger/quick-setup-debian-server" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/devops.png"
+                             alt="DevOps"/>
+                    </a>
+
+                    <p>
+                        <a href="https://github.com/ColinLeverger/quick-setup-debian-server">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                                 alt="Github">
+                        </a>
+                    </p>
+
+                    <h3>Quick Setup Debian Server</h3>
+
+                    <p>Use of <b>Ansible</b> to script and automate the configuration of a blank Debian 8 server
+                        with only one command.</p>
                 </div>
             </div>
         </div>

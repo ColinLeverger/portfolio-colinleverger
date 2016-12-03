@@ -55,6 +55,8 @@ include "header.php";
                     </a>
                 </div>
                 <hr>
+                Apprentice Computer & DevOps Engineer
+                <hr>
                 <div>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png"
