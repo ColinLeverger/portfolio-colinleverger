@@ -8,16 +8,16 @@
 
                 <p>
                     Email:
-                    <a href="mailto:colinleverger@gmail.com">
+                    <a href="mailto:colin@colinleverger.fr">
                         <!--<img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">-->
-                        colinleverger@gmail.com
+                        colin@colinleverger.fr
                     </a>
                 </p>
                 <p>
                     Phone:
                     <a href="tel:0033633504722">
                         <!--<img class="icons" width="40" height="40" src="assets/img/logos/phone-logo.png" alt="Phone">-->
-                        +33 (0)633 504722
+                        +33 (0)633 504 722
                     </a>
                 </p>
             </div>
