@@ -243,7 +243,7 @@
                         </a>
                     </p>
 
-                    <h3>Machine learning algorithms</h3>
+                    <h3>Machine Learning Algorithms</h3>
 
                     <p>Use of <b>Python</b> & <b>Scikit</b> lib to experiment with machine learning algorithms, such as
                         Linear regression, Trees, Random Forests... Work in pairs with Anais GALISSON.</p>
