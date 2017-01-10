@@ -11,7 +11,11 @@
                     <a href="mailto:colin@colinleverger.fr">
                         <!--<img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">-->
                         colin@colinleverger.fr
+                    </a> -
+                    <a href="./colin@colinleverger.fr.pub.asc">
+                        PubKey
                     </a>
+
                 </p>
                 <p>
                     Phone:
@@ -55,7 +59,7 @@
                 <h4>It was nice to see you :)</h4>
                 <p>
                     <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
-                        from France, last update end Nov 2016.
+                        from France, last update mid January 2017.
                     </small>
                 </p>
             </div>

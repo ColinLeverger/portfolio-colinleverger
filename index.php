@@ -68,6 +68,9 @@ include "header.php";
                     <a href="https://www.kaggle.com/colinleverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
                     </a>
+                    <a href="https://keybase.io/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/keybase-logo.png" alt="Kaggle">
+                    </a>
                     <a href="mailto:colin@colinleverger.fr">
                         <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
                     </a>
