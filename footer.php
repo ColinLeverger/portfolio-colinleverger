@@ -35,6 +35,15 @@
                         <img class="icons" width="40" height="40" src="assets/img/logos/linkedin-logo.png"
                              alt="LinkedIn">
                     </a>
+                    <a href="https://github.com/ColinLeverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
+                    </a>
+                    <a href="https://www.kaggle.com/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
+                    </a>
+                    <a href="https://keybase.io/colinleverger" target="_blank">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/keybase-logo.png" alt="Keybase">
+                    </a>
                     <a href="https://plus.google.com/+ColinLeverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/googleplus-logo.png"
                              alt="Google+">
@@ -45,12 +54,7 @@
                     <a href="skype:colin.leverger5" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/skype-logo.png" alt="Skype">
                     </a>
-                    <a href="https://github.com/ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
-                    </a>
-                    <a href="https://www.kaggle.com/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
-                    </a>
+
                 </p>
             </div>
             <!-- /col-lg-4 -->
