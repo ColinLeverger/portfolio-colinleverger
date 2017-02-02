@@ -122,17 +122,15 @@ include "header.php";
                 <h3>Studies:</h3>
                 <hr>
 
-                <p>Currently: ERASMUS in <a href="http://www.ruc.dk/en/">Roskilde University</a>, Denmark.</p>
+                <p>mid-2016 - 2017: ERASMUS in <a href="http://www.ruc.dk/en/">Roskilde University</a>, Denmark</p>
 
                 <p>2014 - 2017: student at the engineering school <a href="http://www.enssat.fr/"
                                                                      target="new">ENSSAT</a>
                     Lannion - Computing Science</p>
 
-                <p>2014: D.U.T
+                <p>2012 - 2014: D.U.T
                     <a href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii"
-                       target="new">
-                        GEII
-                    </a>,
+                       target="new">GEII</a>
                     Rennes (Technical Degree in Electronics & Computing Sciences) </p>
             </div>
             <div class="col-lg-2">
@@ -141,15 +139,20 @@ include "header.php";
                 <h3>MOOCs:</h3>
                 <hr>
 
-                <p>Coursera platform: following the <a
-                        href="https://www.coursera.org/specializations/scala">Scala specialisation</a>, started (but not
-                    finished yet) the <a href="https://www.coursera.org/learn/recommender-systems/home/welcome">Recommender
-                        systems</a> course.
+                <p>Coursera:<br/>
+                    <a href="https://www.coursera.org/specializations/scala">Scala specialisation</a>,<br/>
+                    <a href="https://www.coursera.org/specializations/gcp-sysops">Google Cloud Platform specialisation</a>,<br/>
+                    <a href="https://www.coursera.org/learn/recommender-systems/home/welcome">Recommender systems</a>
                 </p>
 
-                <p>FUN MOOC: followed <a
-                        href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S05/session05/about">Fondamentaux pour
-                        le Big Data</a> in end of August 2016.</p>
+                <p>edX:<br/>
+                    <a href="https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS152x+3T2016/info">Introduction to OpenStack</a><br/>
+                </p>
+
+                <p>FUN MOOC:<br/>
+                    <a href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S05/session05/about">Fondamentaux pour
+                        le Big Data</a>
+                </p>
 
             </div>
             <div class="col-lg-2">
@@ -158,8 +161,8 @@ include "header.php";
                 <h3>Travels:</h3>
                 <hr>
 
-                <p>2016 : Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (5
-                    months)</p>
+                <p>2016: Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (<em>5
+                    months</em>)</p>
 
                 <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
 
