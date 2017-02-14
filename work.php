@@ -407,6 +407,49 @@
                         with only one command.</p>
                 </div>
             </div>
+            <div id="18" class="item design other col-lg-4">
+                <div class="item-wrap">
+                    <a class="zoom green" href="http://english.ida.dk/" rel="follow"
+                       target="new">
+                        <img class="img-responsive" src="./assets/img/portfolio/ida.jpg"
+                             alt="DevOps"/>
+                    </a>
+
+                    <p>
+                        <a href="http://english.ida.dk/">
+                            <img class="icons" width="40" height="40" src="assets/img/logos/link.png"
+                                 alt="Website">
+                        </a>
+                    </p>
+
+                    <h3>Junior System Architect, IDA</h3>
+
+                    <p>Work for a Danish Union for Engineers during 3 months as a Junior System Architect to study the feasability of
+                      a migration between different Microsoft products.</p>
+                </div>
+            </div>
+            <div id="19" class="item dev ml personal col-lg-4">
+              <a class="zoom green" href="https://github.com/ColinLeverger/titanic-r" rel="follow"
+                 target="new">
+                  <img class="img-responsive" src="./assets/img/portfolio/titanic.jpg"
+                       alt="Speed Dating"/>
+              </a>
+
+              <p>
+                  <a href="https://github.com/ColinLeverger/titanic-r">
+                      <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                           alt="Github">
+                  </a>
+                  <a href="https://www.kaggle.com/c/titanic">
+                      <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Link">
+                  </a>
+              </p>
+
+              <h3>Titanic & Machine Learning</h3>
+
+              <p>Use of <b>R</b> to analyse a Dataset concerning the sinking of the Titanic. Machine Learning models
+              used to predict the survivors of the crash.</p>
+            </div>
         </div>
     </div>
     <!-- /container -->
