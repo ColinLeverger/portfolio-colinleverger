@@ -12,7 +12,7 @@
       {
         ?>
         <script>
-            setTimeout(function () {$("#ml").click();}, 5000);
+            setTimeout(function () {$("#ml").click();}, 3100);
             setTimeout(function () {$('#workAnchor')[0].click();}, 3000);
         </script>
         <?php
