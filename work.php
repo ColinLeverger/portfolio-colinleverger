@@ -6,13 +6,25 @@
             <p>Click on a project to learn more!</p>
         </div>
     </div>
+    <?php
+      $data = $_SESSION['dataProject'];
+      if($data == true)
+      {
+        ?>
+        <script>
+            setTimeout(function () {$("#ml").click();}, 5000);
+            setTimeout(function () {$('#workAnchor')[0].click();}, 3000);
+        </script>
+        <?php
+        $_SESSION['dataProject'] = false;
+      }
+    ?>
     <div class="row  centered">
-
         <div id="filters" class="button-group">
             <button class="btn btn-colin" data-filter="*">Show all</button>
             <button class="btn btn-colin" data-filter=".web">Web</button>
             <button class="btn btn-colin" data-filter=".design">Design/Conception</button>
-            <button class="btn btn-colin" data-filter=".ml">Machine Learning</button>
+            <button id="ml" class="btn btn-colin" data-filter=".ml">Machine Learning</button>
             <button class="btn btn-colin" data-filter=".dev">Dev</button>
             <button class="btn btn-colin" data-filter=".other">Other</button>
             <button class="btn btn-colin" data-filter=".personal">Personal</button>
