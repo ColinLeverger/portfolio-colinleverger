@@ -15,6 +15,7 @@
             $(window).on("load", function() {
                 $("#ml").click();
                 $('#workAnchor')[0].click();
+                setTimeout(function() { hideNav();}, 350)
             });
         </script>
         <?php
