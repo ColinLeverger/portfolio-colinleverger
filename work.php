@@ -12,8 +12,10 @@
       {
         ?>
         <script>
-            setTimeout(function () {$("#ml").click();}, 5000);
-            setTimeout(function () {$('#workAnchor')[0].click();}, 5000);
+            $(window).on("load", function() {
+                $("#ml").click();
+                $('#workAnchor')[0].click();
+            });
         </script>
         <?php
         $_SESSION['dataProject'] = false;
