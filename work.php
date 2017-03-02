@@ -7,7 +7,7 @@
         </div>
     </div>
     <?php
-      $data = $_SESSION['dataProject'];
+      $data = isset($_SESSION['dataProject']) ? $_SESSION['dataProject'] : false;
       if($data == true)
       {
         ?>
@@ -27,7 +27,7 @@
             <button class="btn btn-colin" data-filter="*">Show all</button>
             <button class="btn btn-colin" data-filter=".web">Web</button>
             <button class="btn btn-colin" data-filter=".design">Design/Conception</button>
-            <button id="ml" class="btn btn-colin" data-filter=".ml">Machine Learning</button>
+            <button id="ml" class="btn btn-colin" data-filter=".ml">Data/Machine Learning</button>
             <button class="btn btn-colin" data-filter=".dev">Dev</button>
             <button class="btn btn-colin" data-filter=".other">Other</button>
             <button class="btn btn-colin" data-filter=".personal">Personal</button>
@@ -427,7 +427,7 @@
                     <a class="zoom green" href="http://english.ida.dk/" rel="follow"
                        target="new">
                         <img class="img-responsive" src="./assets/img/portfolio/ida.jpg"
-                             alt="DevOps"/>
+                             alt="IDA"/>
                     </a>
 
                     <p>
@@ -444,26 +444,45 @@
                 </div>
             </div>
             <div id="19" class="item dev ml personal col-lg-4">
-              <a class="zoom green" href="https://github.com/ColinLeverger/titanic-r" rel="follow"
-                 target="new">
-                  <img class="img-responsive" src="./assets/img/portfolio/titanic.jpg"
-                       alt="Speed Dating"/>
-              </a>
+                <a class="zoom green" href="https://github.com/ColinLeverger/titanic-r" rel="follow"
+                   target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/titanic.jpg"
+                         alt="Titanic"/>
+                </a>
 
-              <p>
-                  <a href="https://github.com/ColinLeverger/titanic-r">
-                      <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
-                           alt="Github">
-                  </a>
-                  <a href="https://www.kaggle.com/c/titanic">
-                      <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Link">
-                  </a>
-              </p>
+                <p>
+                    <a href="https://github.com/ColinLeverger/titanic-r">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                             alt="Github">
+                    </a>
+                    <a href="https://www.kaggle.com/c/titanic">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Link">
+                    </a>
+                </p>
 
-              <h3>Titanic & Machine Learning</h3>
+                <h3>Titanic & Machine Learning</h3>
 
-              <p>Use of <b>R</b> to analyse a Dataset concerning the sinking of the Titanic. Machine Learning models
-              used to predict the survivors of the crash.</p>
+                <p>Use of <b>R</b> to analyse a Dataset concerning the sinking of the Titanic. Machine Learning models
+                    used to predict the survivors of the crash.</p>
+            </div>
+            <div id="20" class="item dev ml personal col-lg-4">
+                <a class="zoom green" href="https://github.com/ColinLeverger/beer-scraper-scala" rel="follow"
+                   target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/beers.jpg"
+                         alt="Beers"/>
+                </a>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/beer-scraper-scala">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                             alt="Github">
+                    </a>
+                </p>
+
+                <h3>Beers scraper Scala</h3>
+
+                <p>Use of <b>Scala</b> to scrap a webpage containing data about beers.
+                    The goal is to learn how to scrap the web to create my own datasets.</p>
             </div>
         </div>
     </div>
