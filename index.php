@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- pace -->
+    <!-- Load Pace -->
     <link href="assets/css/pace.css" rel="stylesheet">
     <script src="assets/js/pace.js"></script>
 
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +22,10 @@
     <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
     <script src="assets/js/isotope.js"></script>
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="assets/css/main.css" rel="stylesheet">
 
+    <!-- Load javascript scripts -->
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
     <script src="assets/js/bootstrap-progressbar.js"></script>
@@ -41,7 +43,8 @@
             s.src = "https://client.crisp.im/l.js";
             s.async = 1;
             d.getElementsByTagName("head")[0].appendChild(s);
-        })();</script>
+        })();
+    </script>
 </head>
 
 <body>
@@ -113,9 +116,9 @@ include "header.php";
                 <h3>About me:</h3>
                 <hr>
 
-                <p>22 y-o</p>
+                <p>23 y-o</p>
 
-                <p><a href="https://goo.gl/maps/6ZnmBmoNSkp" target="new">Rennes</a> city - France</p>
+                <p>Paris - France</p>
 
                 <p>Guitarist / Singer / Music player & lover</p>
 
@@ -146,12 +149,14 @@ include "header.php";
 
                 <p>Coursera:<br/>
                     <a href="https://www.coursera.org/specializations/scala">Scala specialisation</a>,<br/>
-                    <a href="https://www.coursera.org/specializations/gcp-sysops">Google Cloud Platform specialisation</a>,<br/>
+                    <a href="https://www.coursera.org/specializations/gcp-sysops">Google Cloud Platform
+                        specialisation</a>,<br/>
                     <a href="https://www.coursera.org/learn/recommender-systems/home/welcome">Recommender systems</a>
                 </p>
 
                 <p>edX:<br/>
-                    <a href="https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS152x+3T2016/info">Introduction to OpenStack</a><br/>
+                    <a href="https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS152x+3T2016/info">Introduction
+                        to OpenStack</a><br/>
                 </p>
 
                 <p>FUN MOOC:<br/>
@@ -167,7 +172,7 @@ include "header.php";
                 <hr>
 
                 <p>2016: Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (<em>5
-                    months</em>)</p>
+                        months</em>)</p>
 
                 <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
 
