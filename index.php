@@ -97,7 +97,7 @@ include "header.php";
 
                 <p>I am highly motivated by the <b>Big Data</b> in general, and about technologies such as <b>Machine
                         learning</b>, etc. I am constantly learning (by myself, or at school) about these subjects, and
-                    I definitely want to go further and study in that field after being graduated at ENSSAT. Let me know
+                    I will go further and study in that field after being graduated at ENSSAT, from sept. 2017. Let me know
                     if you are interested in my profile for a potential internship in this domain!</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
