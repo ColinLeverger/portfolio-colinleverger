@@ -61,7 +61,7 @@ $(function () {
         handler: function () {
             $('.progress .progress-bar').progressbar();
         },
-        offset: 110
+        offset: 400
     })
 });
 
