@@ -125,13 +125,14 @@ include "header.php";
                 <h3>Studies:</h3>
                 <hr>
 
-                <p>mid-2016 - 2017: ERASMUS in <a href="http://www.ruc.dk/en/">Roskilde University</a>, Denmark</p>
+                <p><b>2017 - 2020</b>: Ph.D. student at <a href="https://www.univ-rennes1.fr/">Rennes 1 University</a></p>
+                <p><b>mid-2016 - 2017</b>: ERASMUS in <a href="http://www.ruc.dk/en/">Roskilde University</a>, Denmark</p>
 
-                <p>2014 - 2017: student at the engineering school <a href="http://www.enssat.fr/"
+                <p><b>2014 - 2017</b>: student at the engineering school <a href="http://www.enssat.fr/"
                                                                      target="new">ENSSAT</a>
                     Lannion - Computing Science</p>
 
-                <p>2012 - 2014: D.U.T
+                <p><b>2012 - 2014</b>: D.U.T
                     <a href="https://iut-rennes.univ-rennes1.fr/formations/dut/dut-genie-electrique-et-informatique-industrielle-geii"
                        target="new">GEII</a>
                     Rennes (Technical Degree in Electronics & Computing Sciences) </p>
@@ -142,19 +143,19 @@ include "header.php";
                 <h3>MOOCs:</h3>
                 <hr>
 
-                <p>Coursera:<br/>
+                <p><b>Coursera</b>:<br/>
                     <a href="https://www.coursera.org/specializations/scala">Scala specialisation</a>,<br/>
                     <a href="https://www.coursera.org/specializations/gcp-sysops">Google Cloud Platform
                         specialisation</a>,<br/>
                     <a href="https://www.coursera.org/learn/recommender-systems/home/welcome">Recommender systems</a>
                 </p>
 
-                <p>edX:<br/>
+                <p><b>edX</b>:<br/>
                     <a href="https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS152x+3T2016/info">Introduction
                         to OpenStack</a><br/>
                 </p>
 
-                <p>FUN MOOC:<br/>
+                <p><b>FUN MOOC</b>:<br/>
                     <a href="https://www.fun-mooc.fr/courses/MinesTelecom/04006S05/session05/about">Fondamentaux pour
                         le Big Data</a>
                 </p>
@@ -166,14 +167,14 @@ include "header.php";
                 <h3>Travels:</h3>
                 <hr>
 
-                <p>2017: China, Italy, Croatia, Slovenia, etc.</p>
+                <p><b>2017</b>: China, Italy, Croatia, Slovenia, etc.</p>
 
-                <p>2016: Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (<em>5
+                <p><b>2016</b>: Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (<em>5
                         months</em>)</p>
 
-                <p>2015: Scotland, Glasgow (<em>30 days</em>)</p>
+                <p><b>2015</b>: Scotland, Glasgow (<em>30 days</em>)</p>
 
-                <p>2014: Ireland (<em>3 months</em>), <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
+                <p><b>2014</b>: Ireland (<em>3 months</em>), <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
                     an internship</p>
 
                 <p>& many others. . .</p>
@@ -184,13 +185,13 @@ include "header.php";
                 <h3>Languages:</h3>
                 <hr>
 
-                <p>French: native</p>
+                <p><b>French</b>: native</p>
 
-                <p>English: fluent & good technical skills (B2 level)</p>
+                <p><b>English</b>: fluent & good technical skills (B2 level)</p>
 
-                <p>Spanish: basic knowledge</p>
+                <p><b>Spanish</b>: basic knowledge</p>
 
-                <p>Danish: basic knowledge</p>
+                <p><b>Danish</b>: basic knowledge</p>
             </div>
             <div class="col-lg-1"></div>
         </div>
