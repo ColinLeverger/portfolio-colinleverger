@@ -484,6 +484,27 @@
                 <p>Use of <b>Scala</b> to scrap a webpage containing data about beers.
                     The goal is to learn how to scrap the web to create my own datasets.</p>
             </div>
+            <div id="21" class="item personal other design col-lg-4">
+                <a class="zoom green" href="https://github.com/ColinLeverger/yet-another-latex-template-repository" rel="follow"
+                   target="new">
+                    <img class="img-responsive" src="./assets/img/portfolio/latex.png"
+                         alt="LaTeX"/>
+                </a>
+
+                <p>
+                    <a href="https://github.com/ColinLeverger/yet-another-latex-template-repository">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png"
+                             alt="Github">
+                    </a>
+                    <a href="assets/projects/report.pdf">
+                        <img class="icons" width="40" height="40" src="assets/img/logos/book.png" alt="Report">
+                    </a>
+                </p>
+
+                <h3>LaTeX template repository</h3>
+
+                <p>Use of <b>LaTeX</b> to create templates from scratch for school reports & papers.</p>
+            </div>
         </div>
     </div>
     <!-- /container -->

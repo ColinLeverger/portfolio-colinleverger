@@ -44,13 +44,6 @@
                     <a href="https://keybase.io/colinleverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/keybase-logo.png" alt="Keybase">
                     </a>
-                    <a href="https://plus.google.com/+ColinLeverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/googleplus-logo.png"
-                             alt="Google+">
-                    </a>
-                    <a href="https://youtube.com/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/youtube-logo.png" alt="YouTube">
-                    </a>
                     <a href="skype:colin.leverger5" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/skype-logo.png" alt="Skype">
                     </a>
@@ -63,7 +56,7 @@
                 <h4>It was nice to see you :)</h4>
                 <p>
                     <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
-                        from France, last update end April 2017.
+                        from France, last update mid September 2017.
                     </small>
                 </p>
             </div>

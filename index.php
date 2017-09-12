@@ -55,7 +55,7 @@ include "header.php";
 <div id="top">
     <div class="container centered">
         <div class="row">
-            <div class="col-lg-4 mt">
+            <div class="col-lg-7 mt">
                 <div><a href="assets/pdf/Colin-LEVERGER.pdf" target="new">
                         <img src="./assets/img/colinleverger.jpeg"
                              class="circular"
@@ -63,7 +63,7 @@ include "header.php";
                     </a>
                 </div>
                 <hr>
-                Apprentice Computer & DevOps Engineer
+                Scala & DevOps Engineer
                 <hr>
                 <div>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
@@ -87,18 +87,13 @@ include "header.php";
                     </a>
                 </div>
             </div>
-            <div class="col-lg-8">
-                <p>I am a young developer & an engineering student, and you are welcome to my web-portfolio.</p>
+            <div class="col-lg-5">
+                <p>I am a young developer & a <b>Ph.D.</b> student, and you are welcome to my web-portfolio.</p>
 
-                <p>I currently work as an apprentice <b>DevOps engineer</b> & <b>Scala developer</b> at the Orange
-                    company. I have the opportunity to work with <b>DevOps tools</b> such as <b>Jenkins</b>,
-                    <b>Travis</b>, <b>Scala SBT</b>, <b>Docker</b>, <b>Ansible</b>, and also to learn how the
-                    application performance management works in the Orange's Application Performance Experts team.</p>
-
-                <p>I am highly motivated by the <b>Big Data</b> in general, and about technologies such as <b>Machine
-                        learning</b>, etc. I am constantly learning (by myself, or at school) about these subjects, and
-                    I will go further and study in that field after being graduated at ENSSAT, from sept. 2017. Let me know
-                    if you are interested in my profile for a potential internship in this domain!</p>
+                <p>I currently work as a <b>Ph.D.</b> student at the Orange company, in collaboration with
+                    <a href="https://team.inria.fr/lacodam/">INRIA labs (LACODAM)</a>.
+                    In the context of servers & infrastructure performances, I manipulate Time Series to do predictions.
+                    I code Machine Learning algorithms and user interfaces to improve the Capacity Planning at Orange.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
                     projects.</p>
@@ -120,9 +115,9 @@ include "header.php";
 
                 <p>Paris - France</p>
 
-                <p>Guitarist / Singer / Music player & lover</p>
+                <p>Guitarist / Singer / Music player & producer</p>
 
-                <p>Play badminton twice a week, occasional swimmer, love long hikes and nature activities</p>
+                <p>Regular runner (goal: semi-marathon in 6 months), occasional swimmer, love long hikes and nature activities</p>
             </div>
             <div class="col-lg-2">
                 <span class="glyphicon glyphicon-education"></span>
@@ -171,12 +166,14 @@ include "header.php";
                 <h3>Travels:</h3>
                 <hr>
 
+                <p>2017: China, Italy, Croatia, Slovenia, etc.</p>
+
                 <p>2016: Japan (<em>15 days</em>), Lisboa (<em>7 days</em>), Ireland (<em>10 days</em>), Denmark (<em>5
                         months</em>)</p>
 
-                <p>2015 (<em>30 days</em>): Scotland, Glasgow</p>
+                <p>2015: Scotland, Glasgow (<em>30 days</em>)</p>
 
-                <p>2014 (<em>3 months</em>): Ireland, <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
+                <p>2014: Ireland (<em>3 months</em>), <a href="http://www.ait.ie/" target="new">Athlone AIT</a> during
                     an internship</p>
 
                 <p>& many others. . .</p>
@@ -206,18 +203,18 @@ include "header.php";
                 <h3 class="centered">Development skills</h3>
                 <hr>
 
-                <p><b>Functional programming</b>: Scala, 2 years experience, daily use. Currently following the <a
+                <p><b>Functional programming</b>: Scala, 3 years experience, daily use. Followed the <a
                         href="https://www.coursera.org/specializations/scala">Scala specialisation</a> on Coursera.</p>
 
                 <p><b>Git</b>: Daily use, advanced workflow (branch, checkout, tags, ...).</p>
 
-                <p><b>Object-oriented programming</b>: Java, 3 years experience, several projects.</p>
+                <p><b>Object-oriented programming</b>: Java, 4 years experience, several projects.</p>
 
                 <p><b>Web</b>: PHP, HTML5 / CSS3, JavaScript, Wordpress, Scala Play, JEE.</p>
 
                 <p><b>C</b>: robust experience (loop invariant, strict methodology & concepts, graphs).</p>
 
-                <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / NoSQL (MongoDB)</p>
+                <p><b>Databases</b>: SQL (MySQL, PostgreSQL...) / NoSQL (MongoDB) / Time Series databases (influxDB)</p>
             </div>
             <div class="col-lg-6">
                 <h3 class="centered">Skills "progress bar" (fancy, eh?):</h3>
