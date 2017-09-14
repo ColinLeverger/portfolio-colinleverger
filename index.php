@@ -15,7 +15,7 @@
     <meta property="og:image" content="http://colinleverger.fr/assets/img/colinleverger.jpg"/>
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>Colin LEVERGER, Ph.D. student at Orange & IRISA / LACODAM</title>
+    <title>Colin LEVERGER, Ph.D. student at Orange & INRIA / LACODAM</title>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -63,7 +63,7 @@ include "header.php";
                     </a>
                 </div>
                 <hr>
-                Ph.D. student at Orange & IRISA / LACODAM
+                Ph.D. student at Orange & INRIA / LACODAM
                 <hr>
                 <div>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
