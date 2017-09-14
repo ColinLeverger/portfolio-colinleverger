@@ -15,7 +15,7 @@
     <meta property="og:image" content="http://colinleverger.fr/assets/img/colinleverger.jpg"/>
     <link rel="shortcut icon" href="favicon.ico">
 
-    <title>Colin LEVERGER</title>
+    <title>Colin LEVERGER, Ph.D. student at Orange & IRISA / LACODAM</title>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -63,7 +63,7 @@ include "header.php";
                     </a>
                 </div>
                 <hr>
-                Scala & DevOps Engineer
+                Ph.D. student at Orange & IRISA / LACODAM
                 <hr>
                 <div>
                     <a href="https://linkedin.com/in/colinleverger" target="_blank">
@@ -88,12 +88,14 @@ include "header.php";
                 </div>
             </div>
             <div class="col-lg-5">
-                <p>I am a young developer & a <b>Ph.D.</b> student, and you are welcome to my web-portfolio.</p>
+                <p>I am a young engineer & a <b>Ph.D.</b> student, and you are welcome to my web-portfolio.</p>
 
                 <p>I currently work as a <b>Ph.D.</b> student at the Orange company, in collaboration with
                     <a href="https://team.inria.fr/lacodam/">INRIA labs (LACODAM)</a>.
                     In the context of servers & infrastructure performances, I manipulate Time Series to do predictions.
                     I code Machine Learning algorithms and user interfaces to improve the Capacity Planning at Orange.</p>
+
+                <p>I talk Scala, I am a DevOps, I love CI, FP, Ansible/Jenkins/Docker, I build tested & stable software.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
                     projects.</p>
