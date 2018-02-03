@@ -56,7 +56,7 @@
                 <h4>It was nice to see you :)</h4>
                 <p>
                     <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
-                        from France, last update mid September 2017.
+                        from France, last update mid Feb 2018.
                     </small>
                 </p>
             </div>

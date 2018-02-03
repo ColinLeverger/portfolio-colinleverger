@@ -16,6 +16,7 @@
                     <li><a href="#about" onclick="hideNav()">About me</a></li>
                     <li><a href="#skills-bar" onclick="hideNav()">Skills</a></li>
                     <li><a href="#devops" onclick="hideNav()">DevOps</a></li>
+                    <li><a id="workAnchor" href="#academic" onclick="hideNav()">Academic</a></li>
                     <li><a id="workAnchor" href="#work" onclick="hideNav()">Work</a></li>
                     <!--<li><a href="http://colinleverger.github.io" onclick="hideNav()">Blog</a></li>-->
                     <li><a href="#footer" onclick="hideNav()">Contact</a></li>

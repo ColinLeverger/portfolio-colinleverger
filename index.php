@@ -92,10 +92,11 @@ include "header.php";
 
                 <p>I currently work as a <b>Ph.D.</b> student at the Orange company, in collaboration with
                     <a href="https://team.inria.fr/lacodam/">INRIA labs (LACODAM)</a>.
-                    In the context of servers & infrastructure performances, I manipulate Time Series to do predictions.
+                    In the context of servers & infrastructure performances, I manipulate Time Series datasets
+                    to do forecasts, predictions, correlations analysis...
                     I code Machine Learning algorithms and user interfaces to improve the Capacity Planning at Orange.</p>
 
-                <p>I talk Scala, I am a DevOps, I love CI, FP, Ansible/Jenkins/Docker, I build tested & stable software.</p>
+                <p>I talk Scala, I am DevOps, I love CI, FP, Ansible/Jenkins/Docker, I build tested & stable software.</p>
 
                 <p>You will find on this website some information about me, my skills, and about some of my
                     projects.</p>
@@ -113,13 +114,13 @@ include "header.php";
                 <h3>About me:</h3>
                 <hr>
 
-                <p>23 y-o</p>
+                <p>24 y-o</p>
 
                 <p>Paris - France</p>
 
                 <p>Guitarist / Singer / Music player & producer</p>
 
-                <p>Regular runner (goal: semi-marathon in 6 months), occasional swimmer, love long hikes and nature activities</p>
+                <p>Regular runner, occasional swimmer, love long hikes and nature activities</p>
             </div>
             <div class="col-lg-2">
                 <span class="glyphicon glyphicon-education"></span>
@@ -319,6 +320,7 @@ include "header.php";
 </div>
 <div id="grey">
     <?php
+    include "academic.php";
     include "work.php";
     include "footer.php";
     ?>
