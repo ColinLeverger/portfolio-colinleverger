@@ -1,4 +1,5 @@
+# whitelist
+language: nix
+script: echo toto
 after_success:
-- curl --ftp-create-dirs
-       -T filename
-       ftp://${SFTP_USER}:${SFTP_PASSWORD}@ftp.cluster017.ovh.net:21/home/${SFTP_USER}
+- find * -exec curl -T {} --ftp-create-dirs --user ${SFTP_USER}:${SFTP_PASSWORD} ftp://${FTP}:21/{} \;
