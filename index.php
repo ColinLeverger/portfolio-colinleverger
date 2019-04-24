@@ -72,13 +72,7 @@ include "header.php";
                     </a>
                     <a href="https://github.com/ColinLeverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
-                    </a>
-                    <a href="https://www.kaggle.com/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
-                    </a>
-                    <a href="https://keybase.io/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/keybase-logo.png" alt="Keybase">
-                    </a>
+                    </a>                    
                     <a href="mailto:colin@colinleverger.fr">
                         <img class="icons" width="40" height="40" src="assets/img/logos/mail-logo.png" alt="Mail">
                     </a>
@@ -114,7 +108,7 @@ include "header.php";
                 <h3>About me:</h3>
                 <hr>
 
-                <p>24 y-o</p>
+                <p>25 y-o</p>
 
                 <p>Paris - France</p>
 
