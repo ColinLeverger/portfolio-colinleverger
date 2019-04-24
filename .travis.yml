@@ -1,7 +1,0 @@
-language: minimal
-env:
-  global:
-  - 'TOTO=1'
-after_success:
-- ls
-- find * -exec curl -T {} --ftp-create-dirs ftp://${SFTP_USER}:${SFTP_PASSWORD}@${FTP}/{} \;
