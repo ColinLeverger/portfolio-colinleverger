@@ -37,17 +37,7 @@
                     </a>
                     <a href="https://github.com/ColinLeverger" target="_blank">
                         <img class="icons" width="40" height="40" src="assets/img/logos/github-logo.png" alt="Github">
-                    </a>
-                    <a href="https://www.kaggle.com/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/kaggle-logo.png" alt="Kaggle">
-                    </a>
-                    <a href="https://keybase.io/colinleverger" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/keybase-logo.png" alt="Keybase">
-                    </a>
-                    <a href="skype:colin.leverger5" target="_blank">
-                        <img class="icons" width="40" height="40" src="assets/img/logos/skype-logo.png" alt="Skype">
-                    </a>
-
+                    </a>             
                 </p>
             </div>
             <!-- /col-lg-4 -->
@@ -56,7 +46,7 @@
                 <h4>It was nice to see you :)</h4>
                 <p>
                     <small>Made with <span class="glyphicon glyphicon-heart" style="font-size:1.5em; color:red;"></span>
-                        from France, last update mid Feb 2018.
+                        from France, last update mid April 2019.
                     </small>
                 </p>
             </div>
