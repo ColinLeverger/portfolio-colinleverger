@@ -2,4 +2,5 @@
 language: nix
 script: echo toto
 after_success:
+- ls
 - find * -exec curl -T {} --ftp-create-dirs --user ${SFTP_USER}:${SFTP_PASSWORD} ftp://${FTP}:21/{} \;
