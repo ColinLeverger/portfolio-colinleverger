@@ -1,6 +1,5 @@
-# whitelist
-language: nix
-script: echo toto
+env:
+  global:
+  - 'TOTO=1'
 after_success:
-- ls
 - find * -exec curl -T {} --ftp-create-dirs --user ${SFTP_USER}:${SFTP_PASSWORD} ftp://${FTP}:21/{} \;
