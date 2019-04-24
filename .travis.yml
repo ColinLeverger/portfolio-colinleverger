@@ -3,4 +3,5 @@ env:
   global:
   - 'TOTO=1'
 after_success:
-- find * -exec curl -T {} --ftp-create-dirs --user ${SFTP_USER}:${SFTP_PASSWORD} ftp://${FTP}:21/{} \;
+- ls
+- find * -exec curl -T {} --ftp-create-dirs ftp://${SFTP_USER}:${SFTP_PASSWORD}@${FTP}/{} \;
