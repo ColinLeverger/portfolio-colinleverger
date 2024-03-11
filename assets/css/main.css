@@ -1,0 +1,369 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Hide short text by default (resolution > 1200px) */
+.short-text { display: none; }
+
+/* When resolution <= 1200px, hide full text and show short text*/
+@media (max-width: 500px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    max-width: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+body > div {overflow: hidden; }
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+li.comp {
+    list-style-type: none;
+    text-align: left;
+}
+
+li.comp:before {
+    content: "- "; /* on affiche une chaîne de caractère */
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#navWrap {
+    height: 100px
+}
+
+.navbar {
+    text-transform: uppercase;
+    height: 100px
+}
+
+.navbar-inverse {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #4CAF50;
+    border-color: transparent;
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #222222;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-custom {
+    background-color: #4CAF50;
+    border-color: transparent;
+}
+
+.progress-bar-theme {
+    background-color: #4CAF50;
+}
+
+/* Helpers */
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+#footer {
+    background-color: #2f2f2f;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#footer p {
+    color: white;
+}
+
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+    background-color: #f2f2f2;
+}
+
+#white {
+    background-color: #ffffff;
+}
+
+/* Blog Date*/
+bd {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+    font-size: 12px;
+}
+
+.icons {
+    transition: 500ms;
+    margin-top: 20px;
+}
+
+.icons:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: transparent url(../img/loader.gif) no-repeat center;
+}
+
+.zoomOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background-image: url(../img/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zoom2 {
+    opacity: 1;
+}
+
+.zoom2:hover {
+    opacity: 0.5;
+}
+
+.circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+    font-size: 40px;
+    color: #FFF;
+}
+
+
+/* ISOTOPE CONF */
+
+.container-fluid.no-gutter {
+    padding: 30px;
+}
+.container-fluid.no-gutter .row [class*='col-']:not(:first-child),
+.container-fluid.no-gutter .row [class*='col-']:not(:last-child)
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+
+.item {
+    border: none;
+}
+
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+    -ms-transition-property:     -ms-transform, opacity;
+    -o-transition-property:         top, left, opacity;
+    transition-property:         transform, opacity;
+}
+
+/* fluid 4 columns */
+.item { width: 25%; }
+
+/* responsive media queries */
+
+@media (max-width: 768px) {
+    /* fluid 1 columns */
+    .item { width: 100%; }
+}
+
+.col-lg-4 {
+    margin-right: -1px;
+}
+
+/* Buttons */
+.btn-colin {
+    background-color: #4CAF50;
+    color:white;
+    border-color: transparent;
+}
+
+.btn-colin:hover {
+    background-color: #4CAF50;
+    color:white;
+    border-color: transparent;
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+.btn-colin:focus {
+    background-color: #34495e;
+    color:white;
+    outline: 0;
+    border-color: transparent;
+}

@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/colinleverger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://colinleverger.fr
+  * I am colinleverger (https://keybase.io/colinleverger) on keybase.
+  * I have a public key with fingerprint 22ED 1BF6 15BF 180E 584E  B825 046A A486 0D88 4C16
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120bda4585f115c383062cf603d8ce7fc65c3270e15a6c8dd014f85fbddf10b8f560a",
+            "fingerprint": "22ed1bf615bf180e584eb825046aa4860d884c16",
+            "host": "keybase.io",
+            "key_id": "046aa4860d884c16",
+            "kid": "01012d27372d483f4ee7f92fe91af81a9d2be7ae6b2e76ed6e5edb29d5a7df9839d30a",
+            "uid": "de3c0454dd8fe9b86998dad54b690c19",
+            "username": "colinleverger"
+        },
+        "service": {
+            "hostname": "colinleverger.fr",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480856617,
+    "expire_in": 157680000,
+    "prev": "4534479ab75056261f557e9ee4435f7d6a35b5737e62273522a5c3e1bc8a7c23",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMNtAnicbVJtUFRVGF4ErMUIchiHEMa8QKMNH/fr3HsuwpSLCE0Nlaljjc527z3n
+speP3WU/0E1Bo0GwRkZo1kiIRYIGg/GjgYQoC4agRBiacQScUIzSJB0NBzUN6Czl
+rzp/zpz3fZ7nPO9zTl9ooCEkICi3aX9oxcsrAgZ7GtyGbRsi1u6mFBvyUCm7qTy8
+uOF8hJ0uc56OqBSKZlhaQTIPINAYBqgc5GiBVTWB5hBUsaipAimyIo0ZIAsqRIhm
+eI2AFYQ0hlagBgRaphIoTbfmYIfdoVtdRJZlMWIUTWCAojGQxgDyWIEsoHlBlnko
+0AhCXmUEQrTYnH4GMafITpyk20iNHMz/2Psv/pFv4hyxIieyiIecxmPiVWI1LDGy
+BhlZQqyCRRkLCotFASMBA4wUVkJAFpEmQU5C3KJv96IcwpxK84BHCBIJBQqSBJGM
+AK8IEq0ykh/oxA6rXIAJWrXl69Z8XIQdZGSqOIEirSJdxf50/eP8HyxJcxARu8Pm
+spE66VpcLrszxc92eex++E6smP8VMiu6FZFACYOwnbrNSqUwBKm6dL8yw0MaAkFg
+xAQK77LrDmzW/QggCpAmy38PLiKSPOB4XpRkRQQ0EFiB0QAQsYQxz3NAE5Egc0AB
+JEQssCRLwLIyeW3MKCqURZXlKP9ohVYblSIRm3IOkXTqOVbZ5XZgqri3Z3uQISDE
+sDR4if+jGUKM4Y++X2FN2MLGeW3VU6+0pq17o+FynmFUbau58W7M9YNGU5qnc1X5
+7aO9O43wm4J8efRBRN9wReNyL6ou8czGjDR8ezq3q38g/Oqh++VPfmSoMl4zOXNM
+pwaithpKSyfWZk7MlVeUj6+OORKfua+lfiJ1z72L091l3sbfIrK0jpL0puzq0bdm
+5qJ3fLVl6sCJSPeJp826ybMyIUH0lQYab49FXvi64/70hk/stXcnC7KDRx5E/OH1
+en+9sivR/OWPLx2eOc5V+/KFFl9Dat/lkLF4X+bNWmu0JyHtl+9ikx2u7uTtn2X1
+ZERylu4jptLE8ag3F366tvn7h68bVs+FBU/2XFAbu+r/jGpxhX5452rdmeiqqRX8
+pmbfO6FC74u3RiL7wuZnz7jLW+f2ti80H73z2kDZjajKk8XHcmNx6bL150cng8wB
+GZth/7P0EyZt6+QzH8+eEx+/stFy77np04MPQboto95x/rHsuGA+tyJ95dKwOnP7
+nrb3bk1Ofd5UaQkdOlhlNgYWrrl+lrUkL9+xpOLTobhm29397WPHhsetDR1nrWFZ
+XwzXzc+4Y2dxK/8+td7g66yqLYFZP7Smdr7K+ra9sK/veXpw1P3zkPf4vH4gcZ17
+rPLwuYISdguIn9cchXvtTcu0uFMXf++6lGvoW3OSrokp+gBmb48vrEgOL+tNapth
++t8eDr85t+mvS38DBdzEtg==
+=2bYF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/colinleverger
+
+==================================================================
