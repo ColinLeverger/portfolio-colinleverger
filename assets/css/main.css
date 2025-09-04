@@ -7,6 +7,8 @@
  * URL: http://blacktie.co
  */
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Additional professional display & serif pairing */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 /* Hide short text by default (resolution > 1200px) */
 .short-text { display: none; }
@@ -17,6 +19,11 @@
     .full-text { display: none; }
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     overflow-x: hidden;
     background-color: #ffffff;
@@ -25,12 +32,17 @@ body {
     font-size: 14px;
     color: #555;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Global top padding equal to fixed navbar height (100px) so first content is never hidden */
+    padding-top: 100px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
-body > div {overflow: hidden; }
+/* Removed overflow hidden to allow pages with long content (e.g., academic.html) to scroll normally */
+/* body > div {overflow: hidden; } */
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -106,14 +118,9 @@ hr {
     padding: 0;
 }
 
-#navWrap {
-    height: 100px
-}
+#navWrap { height: 100px }
 
-.navbar {
-    text-transform: uppercase;
-    height: 100px
-}
+.navbar { text-transform: uppercase; height: 100px }
 
 .navbar-inverse {
     padding-bottom: 25px;
@@ -169,15 +176,26 @@ hr {
 /* +++++ WRAP SECTIONS +++++ */
 
 #top {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* Extra breathing space above hero (body already has 100px) */
+    padding-top: 60px; /* net top space = 100 (body) + 60 */
+    padding-bottom: 60px;
     background-color: #f2f2f2;
+    flex: 1 0 auto;
 }
+
+/* Single column intro block spacing */
+.intro-block {
+    margin-top: 0; /* remove previous .mt 40px margin */
+    margin-bottom: 40px;
+}
+
+/* Removed per-page spacer classes in favor of global body padding-top */
 
 #footer {
     background-color: #2f2f2f;
     padding-top: 25px;
     padding-bottom: 25px;
+    flex-shrink: 0;
 }
 
 #footer p {
@@ -274,6 +292,101 @@ bt {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    margin-bottom: 14px; /* reduced space between picture and title */
+}
+
+/* Hero Title Styling */
+.hero-title-wrapper {
+    margin-bottom: 18px; /* slightly tighter */
+}
+
+.hero-title {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px; /* reduced size */
+    line-height: 1.22;
+    margin: 0 auto 8px auto;
+    letter-spacing: 0.4px;
+    color: #222 !important; /* force base color - helps against extension overrides */
+    text-align: center; /* enforce centering */
+}
+
+@media (min-width: 992px) {
+    .hero-title { font-size: 34px; }
+}
+
+.hero-title .hero-subtitle {
+    display: inline-block;
+    font-size: 0.7em; /* keep proportion with new size */
+    font-weight: 500;
+    color: #4CAF50;
+    letter-spacing: 0.45px;
+}
+
+/* Dark scheme (system) */
+@media (prefers-color-scheme: dark) {
+    .hero-title { color: #000000; }
+    .hero-title .hero-subtitle { color: #A5D6A7 !important; }
+}
+
+/* Dark Reader heuristic (it adds data-darkreader-scheme attr on html) */
+html[data-darkreader-scheme='dark'] .hero-title { color: #F1F1F1 !important; }
+html[data-darkreader-scheme='dark'] .hero-title .hero-subtitle { color: #A5D6A7 !important; }
+
+/* Additional fallback using attribute substring match when extension mutates inline styles */
+html[style*='--darkreader'] .hero-title { color: #F1F1F1 !important; }
+html[style*='--darkreader'] .hero-title .hero-subtitle { color: #A5D6A7 !important; }
+
+/* Slight glow for readability on dark backgrounds */
+html[data-darkreader-scheme='dark'] .hero-title,
+html[style*='--darkreader'] .hero-title { text-shadow: 0 1px 3px rgba(0,0,0,0.6); }
+
+/* Greeting emphasis */
+.intro-greeting {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-size: 30px; /* slightly bigger as requested */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #4CAF50; /* accent color for better contrast under dark extensions */
+    margin-top: 5px;
+    margin-bottom: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.intro-greeting:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg,#4CAF50,#81c784);
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+/* Center bio text as requested */
+.bio-content {
+    margin-top: 26px;
+    text-align: center; /* reinforce centering */
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-content p { font-size: 15px; }
+/* Removed duplicate rule that reset text-align to left; keep centered */
+
+/* Ensure greeting size not overridden by .bio-content p rule */
+.bio-content .intro-greeting {
+    font-size: 30px !important; /* override the more specific .bio-content p */
 }
 
 /* glyphicon Configuration */
