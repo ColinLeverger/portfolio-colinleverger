@@ -177,9 +177,9 @@ hr {
 
 #top {
     /* Extra breathing space above hero (body already has 100px) */
-    padding-top: 60px; /* net top space = 100 (body) + 60 */
+    padding-top: 30px; /* net top space = 100 (body) + 60 */
     /* reduced bottom padding to tighten space to the footer */
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     background-color: #f2f2f2;
     flex: 1 0 auto;
 }
@@ -307,7 +307,9 @@ bt {
 
 /* Hero Title Styling */
 .hero-title-wrapper {
-    margin-bottom: 18px; /* slightly tighter */
+    /* add a bit more breathing room above and below the hero title */
+    margin-top: 12px;
+    margin-bottom: 28px; /* slightly increased spacing */
 }
 
 .hero-title {
