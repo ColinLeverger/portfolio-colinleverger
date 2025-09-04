@@ -178,7 +178,8 @@ hr {
 #top {
     /* Extra breathing space above hero (body already has 100px) */
     padding-top: 60px; /* net top space = 100 (body) + 60 */
-    padding-bottom: 60px;
+    /* reduced bottom padding to tighten space to the footer */
+    padding-bottom: 20px;
     background-color: #f2f2f2;
     flex: 1 0 auto;
 }
@@ -186,7 +187,8 @@ hr {
 /* Single column intro block spacing */
 .intro-block {
     margin-top: 0; /* remove previous .mt 40px margin */
-    margin-bottom: 40px;
+    /* reduced bottom margin so #top ends closer to footer */
+    margin-bottom: 10px;
 }
 
 /* Removed per-page spacer classes in favor of global body padding-top */
